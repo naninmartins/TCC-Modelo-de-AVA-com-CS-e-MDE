@@ -1,0 +1,198 @@
+\chapter{Fundamentos Conceituais.}
+
+\section{Considerações Iniciais}
+
+Este capítulo provê uma base teórica referente aos métodos que estão no escopo deste trabalho, tratando a formalização dos conceitos de Consciência Situacional com maior enfoque na modelagem apresentada por \citeonline{Endsley1995} e uma explicação sobre o campo de pesquisa em mineração de dados voltado a educação, em razão de facilitar o processo de tomada de decisão em ambientes educacionais.  
+
+
+
+\section{Consciência Situacional}
+
+A definição formal de SA é "a percepção dos elementos no ambiente dentro de um volume de tempo e espaço, a compreensão dos seus significados, e a projeção dos seus estados em um futuro próximo" \cite{Endsley1988}. A falta de SA leva as pessoas a um desentendimento da situação em que se encontram, sendo que a melhor maneira de auxiliar a avaliação humana é suprindo o usuário com altos níveis de Consciência Situacional \cite{Endsley2012}. Todas as tarefas cotidianas requerem níveis específicos de consciência, ao cozinhar por exemplo, a pessoa deve entender todos os parâmetros do ambiente, como temperatura da panela, quantidade de água esquentando, previsão de fervura da água e etc.
+
+\begin{citacao}
+	"Um atleta necessita avaliar seu adversário e as
+	condições do jogo para decidir as ações da partida, para uma ultrapassagem
+	segura o motorista verifica todos os sinais no ambiente dinâmico da estrada
+	(velocidade do seu carro, do carro à frente, tipo de faixa do asfalto, condições
+	da estrada), um policial necessita analisar objetivamente o cenário, condições
+	da vítima, do bandido, avaliar o resultado da ação e só então a executa."\cite[p.~32]{Berti2017}	
+	
+\end{citacao}	
+
+Existem algumas variações nos modelos de definição da consciência da situação, contudo a definição melhor aceita na literatura para modelagem computacional foi proposta por \citeonline{Endsley1995} sendo separados em 3 níveis: percepção, compreensão e projeção e demonstrados na figura \ref{fluxoSA}.
+
+\begin{figure}[htb]
+	\centering
+	\includegraphics[scale=0.4]{figuras/Fluxo-SA}
+	\caption{Modelo de Consciência de Situação em tomada de decisão dinâmica. Fonte: \apud{Endsley1995}{Berti2017} }
+	\label{fluxoSA}
+\end{figure}
+
+\subsection{\textit{Percepção} dos elementos do ambiente}
+
+Neste estado é necessário perceber os sinais do ambiente, variáveis relevantes, elementos e atributos do ambiente, é o primeiro passo para obtenção da Consciência Situacional. Sem uma boa percepção, informações relevantes as etapas de compreensão e projeção ficam incompletas, levando a interpretações ruidosas e baixa consciência sobre os estados do ambiente. A percepção destas informações são captadas por sensores ou pela combinação deles (ex: olfato e paladar em humanos, lasers e radares em máquinas).
+
+
+\subsection{\textit{Compreensão} da situação atual}
+
+O segundo passo na obtenção da SA é conseguir realizar o entendimento mais correto possível sobre os dados colhidos, e compreender as relações percebidas e dinamismos nos significados que serão relevantes para alcançar os objetivos.
+
+\begin{citacao}
+	
+	"Considere uma motorista aproximando de um cruzamento de uma rua. A motorista vê a luz amarela, então ela entende que precisa proceder com cautela, baseado na distância do cruzamento. A percepção dela da taxa de desaceleração do carro a sua frente permite determinar se o carro está parando ou seguindo através da intersecção e isto impacta na distância com aquele carro."\cite[p. 17]{Endsley2012}	
+	
+\end{citacao}	
+
+
+\subsection{\textit{Projeção} do estado futuro}
+
+Após a compreensão dos fatos, nesta etapa deve-se ser capaz de predizer um estado futuro, ou seja, a habilidade de antever eventos onde tomadores de decisão necessitam de um alto nível de SA. O Nível 3 somente é obtido a partir de uma boa compreensão (Nível 2). \citeonline{Endsley2012} exemplificam que " com Nível 3 de SA, uma motorista sabe que se prosseguir para dentro do cruzamento da rua, ela provavelmente será atingida."
+
+
+\subsection{Modelos Mentais}
+
+Para \citeonline{Endsley2012} o indivíduo  possui dois tipos de memórias: \textit{de curto prazo ou de trabalho e de longo prazo}. Quando armazenamos informações sobre a \textit{memória de trabalho}, devemos armazenar este conhecimento em uma base temporária na mente, entretanto somente uma quantia restrita de informação consegue ser retida e manipulada, sendo que uma pessoa deverá relacionar-se ativamente com estas informações para não esquecê-las. A informação conciliada com conhecimento prévio em uma memória de trabalho cria uma nova imagem mental ou a atualiza conforme mudanças na situação. 
+
+
+Imagem mental são formas de representar em pensamento o mundo externo, a mente humana capta o mundo exterior a partir de representações mentais. Estas visões podem ser categorizadas entre representações \textit{analógicas e proposicionais}, a imagem visual é um exemplo de representação analógica. Por outro lado as representações proposicionais são abstratas, organizadas em regras rígidas compreendendo o conteúdo ideacional da mente. Estas representações proposicionais mapeiam-se em uma linguagem da mente ("mentalês"), de forma que representações proposicionais não são pensamentos expressos em frases, mas sim entidades individuais e abstratas formuladas em linguagem própria da mente, alguns psicólogos cognitivos afirmam que a imagem mental pode ser reduzida a representações proposicionais  \cite{Moreira1996}.
+
+Memórias de longo-prazo estruturadas podem ser utilizadas para contornar as limitações em memórias de trabalho, gerenciando o conhecimento em modelos mentais, esquemas e scripts, desempenhando uma importante função na SA \cite{Endsley1995}. Modelos Mentais foram definidos por \apudonline{Rouse1985}{Endsley1995} como: "mecanismos pelos quais humanos são capazes de gerar descrições e formas de sistemas propostos, explicações de funcionalidades e estados observados do sistema, e previsões de estados futuros". \citeonline{Endsley1995} e \citeonline{Endsley2012} entendem que um Modelo Mental são estruturas complexas para entender o comportamento de sistemas específicos, ou seja, uma assimilação sistemática do funcionamento de algo. 
+
+
+Um modelo mental ajuda as pessoas perceberem quais informações são mais importantes, \cite{Berti2017} ilustra que um pedestre sabe que é mais importante olhar para os dois lados da via antes de atravessá-la do que olhar para o céu, esta inferência se dá, pois no devido momento de atravessar a rua, existe um acesso dos modelos mentais conjuntos com experiências e entradas do ambiente, afirmando ao pedestre que olhar para os dois lados é uma informação crucial a ser entendida.  A existência de um bom modelo mental é fator crucial para garantir altos níveis de SA 2 e 3.
+
+Um \textit{esquema} é um estado provável em que podemos acessar a partir de um modelo mental, a mente define padrões de acontecimentos anteriores e os reconhecessem conforme as entradas do ambiente. Os esquemas podem funcionar como atalhos para que não necessitemos acessar o modelo mental a todo momento, (como se tivéssemos uma sensação de \textit{dejavú}). Estes esquemas são formados a partir de casos vividos, contudo, uma vantagem dos esquemas são que não necessitam representar exatamente outras situações parecidas pois as pessoas tem a capacidade de relacionar características de uma situação com um esquema. Um médico relaciona um esquema a partir da observação dos sintomas de um paciente podendo assim deduzir um estado do esquema e uma doença \cite{Endsley2012}.
+
+Um \textit{script} são sequências de ações sendo associadas a um esquema,ou seja, são passos do que se deve fazer a partir da seleção de uma ação, os scripts também são desenvolvidos a partir da experiência, ou são normatizados pelo domínio. Novamente um doutor ao selecionar um esquema (determinando um estado do paciente), prosseguirá o tratamento dando continuidade a uma série de ações pré-programadas para determinada situação \cite{Endsley2012}.
+
+\begin{citacao}
+	
+	"Um mecânico de automóveis escuta um carro e faz várias observações ou testes quando o carro é levado para um serviço. Ele usa seu modelo mental de como o carro (\ldots) deveria soar, sentir e comportar para interpretar o que ele escuta e vê, e assim direcionar o que deveria examinar. Quando ele escuta algo de errado (\ldots), o esquema (ligado ao modelo mental) que melhor corresponde a sugestão é ativado"\cite[p.~23]{Endsley2012}	
+	
+\end{citacao}  
+
+
+
+
+\citeonline{Moreira1996} acredita que não existe um único modelo mental para determinadas situações ou estados em uma mesma abordagem dos fatos, ainda que um modelo mental demonstre-se mais adequado para representação da situação. Um mecânico pode seguir trocando entre vários modelos mentais e esquemas conforme segue na identificação das entradas (possíveis problemas) do seu exame no carro. É possível visualizar a correspondência entre modelos mentais e o modelo da situação atual (figura \ref{modelomentalSA}), assim aplicamos durante toda a execução do processo de tomada de decisão uma correspondência de padrões alternando entre modelos mentais, esquemas e roteiros de trabalhos.
+
+
+\begin{figure}[htb]
+	
+	\centering
+	\includegraphics[scale=0.4]{figuras/Esquema-modelos-mentais}
+	\caption{Modelo de Consciência de Situação em tomada de decisão dinâmica. Fonte: \apud{Endsley1995}{Berti2017} }
+	\label{modelomentalSA}
+	
+\end{figure}
+
+\newpage
+
+\section{Mineração de Dados Educacionais}
+
+A Mineração de Dados (do inglês Data Mining-DM) foi desenvolvida com o intuito de permitir descoberta de conhecimento sobre uma base de dados, \citeonline{Goldschmidt_Passos_2005} afirmam que este conjunto de técnicas oriundas da Estatística e Inteligência Artificial visam obter conhecimento novo, útil, relevante e não-trivial os quais possam estar escondidos em tais bases. 
+\citeonline{Leite_et_al_2016} reforçam que o uso de técnicas de Mineração de dados ao contexto educacional ou EDM (Educational Data Mining) são soluções promissoras para a compreensão de informações nas base de dados em AVA's.
+
+\begin{citacao}
+	
+	"(...) ao minerar os dados de um estoque de supermercado poderia-se descobrir que todas	as sextas-feiras uma marca específica de cerveja se esgota	nas prateleiras e, portanto, um gerente que obtém esta 'nova informação' poderia planejar o estoque do supermercado para aumentar a quantidade de cervejas desta marca as sextas-feiras. Analogamente, é possível minerar dados de alunos para verificar a relação entre uma abordagem pedagógica e o aprendizado do aluno.
+	Através desta informação o professor poderia compreender se sua abordagem realmente está ajudando o aluno e desenvolver novos métodos de ensino mais eficazes.."\cite[p.2]{Baker_Isotani_Carvalho_2011}	
+	
+\end{citacao}
+
+ \citeonline{Romero_Ventura_2013} concordam em dizer que EDM pode ser definida como a aplicação de técnicas de DM para o específico tipo de conjunto de dados originados de ambientes educacionais, combinando ciência da computação, estatística e educação (figura \ref{main_area_DM}).
+
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.6]{figuras/Areas-DM}
+	\caption{Principais áreas relacionadas com a EDM. Fonte: \cite{Romero_Ventura_2013} }
+	\label{main_area_DM}
+\end{figure}
+
+
+\citeonline{Baker_Isotani_Carvalho_2011} citam  várias linhas de pesquisa na área de EDM, tais pesquisas em sua maioria provenientes da área de mineração de dados, podendo destacar a taxonomia das principais subáreas de pesquisa em EDM:
+
+
+\begin{enumerate}
+	
+	\item Predição
+		\begin{itemize}
+			\item Classificação
+			\item Regressão
+			\item Estimação de Densidade
+		\end{itemize}
+	
+	\item Agrupamento
+	
+	\item Mineração de Relações
+		\begin{itemize}
+			\item Mineração de Regras de Associação
+			\item Mineração de Correlações
+			\item Mineração de Padrões Sequenciais
+			\item Mineração de Causas
+		\end{itemize}
+	
+	\item Destilação de dados
+		
+	\item Descobrimento com modelos
+	
+			
+\end{enumerate}
+
+ Na área de \emph{\bfseries Predição}, objetivamos o desenvolvimento de modelos que possam inferir características específicas dos dados observados. Em \emph{\bfseries Mineração de Relações} o intuito é descobrir relações possíveis entre variáveis na Base de Dados. Para agruparmos dados e classificarmos em diferentes grupos e/ou categorias utilizamos técnicas da área de \emph{\bfseries Agrupamento}. \emph{\bfseries Destilação} propõe facilitar a compreensão de dados complexos expondo suas características mais pertinentes já em \emph{\bfseries Descoberta de Modelos}, gera-se um modelo que posteriormente é utilizado como componente ou ponto de partida em outra análise com técnicas de Predição ou Mineração de Relações \cite{Baker_Isotani_Carvalho_2011}. 
+ 
+ 
+ \citeonline{Garcia_et_al_2011} e \citeonline{Santos2016} elucidam o processo de EDM em uma conversão de dados brutos de Sistemas Educacionais em informação, que podem ser usadas por desenvolvedores de software, professores, pesquisadores educacionais, em informação útil, \citeonline{Garcia_et_al_2011} ainda afirmam que o processo de mineração de dados educacionais é baseado nos mesmo passos de um processo de DM como exposto por \citeonline{Romero_Ventura_Bra_2004} nas seguintes etapas (figura \ref{steps_DM}):
+  
+ \begin{figure}[H]
+ 	\centering
+ 	\includegraphics[scale=0.45]{figuras/Etapas-EDM}
+ 	\caption{Etapas da Mineração de Dados Educacionais. Fonte: \apud{Garcia_et_al_2011}{Santos2016} }
+ 	\label{steps_DM}
+ \end{figure}
+  
+\begin{itemize}
+
+	\item Pré-processamento: Os dados obtidos a partir de ambientes educacionais devem ser pré-processados, transformando-os em formatos apropriados para a mineração.
+	\item Mineração de Dados: Passo central do procedimento onde as técnicas de DM são aplicadas (ex:regressão, classificação, associação etc..).
+	\item Pós-processamento: Os resultados ou modelos obtidos são interpretados e usados no processo de tomada de decisão sobre o ambiente educacional.
+
+\end{itemize} 
+
+
+Neste trabalho abordaremos o uso da mineração de dados educacionais em formato genérico, procura-se abordar o seu uso dentro do escopo de um AVA modelado com a existência de Consciência Situacional.
+
+
+\section{Consciência Situacional e Data Mining}
+
+
+Um software com CS deve relacionar todas informações contextuais disponíveis afim de obter o máximo de entendimento sobre o ambiente, assim estas informações devem ser organizadas em modelos mentais em determinadas situações prototípicas, ou seja, cada relação entre os atores da situação devem ser vistas a partir de um modelo da situação \cite{Berti2017}. A mineração de dados por sua via, refere-se a descoberta de conhecimento e análise sobre as bases de informações e sobre os modelos que são definidos no software, \citeonline{Krishnaswamy_et_al_2005}	relacionam uma situação com o estado do relacionamento de uma entidade. Em seu trabalho buscando a CS afim de obter seguranças em rodovias, eles definiram os papéis da consciência do ambiente em meios de modelar as informações contextuais sobre o motorista, veículo e ambiente no qual o carro está situado, e posteriormente utilizar a técnicas de mineração para uma análise sobre modelos pré-definidos.
+
+\citeonline{Mitsch_et_al_2013} expõem que em sistemas com CS, definir situações críticas requerem uma quantidade significativa de tempo e esforço. Este esforço de disponibilizar conhecimento explícito poderia ser facilitado e complementado através de DM, descobrindo relações "interessantes" ou incomuns em domínios nos quais os especialistas podem não estar explicitamente conscientes (conhecimento intrínseco), além do mais, em tempo de execução de um sistema com CS, novas e contínuas mudanças e relações incomuns podem surgir, as quais não foram nitidamente observadas ou definidas. O autor ainda ressalta a grande diversidade dos dados de entrada, monitorando vários objetos inter-relacionados em espaço e tempo heterogêneos que devem ser tratados na avaliação de uma situação crítica.
+
+\begin{citacao}
+	
+	"Outro requisito específico da CS é que objetos que constituem uma certa situação crítica frequentemente exibem uma mistura de Propriedades espaço-temporais. Isto pode ser exemplificado por uma situação envolvendo três objetos, (i) um ônibus, enviando pontos de localização em instantes de tempo via GPS para o centro de controle (ou seja, uma trajetória), (ii) um engarrafamento, compreendendo um intervalo espacial e temporal,	ambos evoluindo ao longo do tempo (ou seja, crescendo, encolhendo, movendo-se) e (iii) uma área de neblina sendo estendida espacialmente sobre uma certa região e caracterizada por um espaço de tempo (...) ."\cite[p.4]{Mitsch_et_al_2013}	
+	
+\end{citacao}
+
+\citeonline{Berti2017} considera o modelo de Endsley intuitivo e claro, permitindo aos estudiosos mensurar em um caminho simples as composições e os requisitos da consciência em cada um dos três níveis.  \apudonline{McGuinnes_Foy_2000}{Salerno_Hinman_Boulware_2004} estenderam o modelo de Endsley adicionando um quarto nível nomeado Resolução, este nível viabilizaria consciência do melhor caminho a seguir para obter a definição desejada da situação, assim durante o fluxo do modelo aplicaria-se os seguintes questionamentos por etapa:
+
+\begin{itemize}
+	
+	\item Percepção: "Quais são os fatos atuais?" 
+	\item Compreensão: "O que está atualmente acontecendo?"
+	\item Projeção: "O que geralmente acontece se...?
+	\item Resolução: "O que exatamente eu deveria fazer?"
+	
+\end{itemize}
+
+Tais indagações norteiam à compreensão da situação alicerçado em conhecimentos de situações similares ocorridas no passado e no presente, se um conhecimento prévio não existe, é preciso aprende-lo ou descobri-lo, papel este na maioria das vezes destinado principalmente a técnicas de Mineração de Dados aliadas a outras ferramentas de Descoberta do Conhecimento (do inglês Knowledge Discovery Tools - KDD) \cite{Salerno_Hinman_Boulware_2004}. 
+
+\section{Considerações Finais}
+
+Em AVA's podemos ter inúmeras ações e situações de interação de um aluno com uma máquina, em casos que podem levar a diversas interpretações, assim como inúmeros tipos de informações de entrada no ambiente (texto, áudio, frequência de acesso etc), conhecer e identificar estas interpretações é desafiador, pois cada reconhecimento de uma situação pode acarretar inúmeras respostas diferentes. Um sistema com CS deve trabalhar continuamente para criar e atualizar modelos de situações nos quais podemos trabalhar tanto com técnicas de mineração como regras de inferência, lógica etc. 
+
+Cada tipo de entrada no sistema pode demonstrar uma resposta mais efetiva para determinadas técnicas e modelos, um sistema pode ter uma resposta melhor para determinado mapa mental dada uma situação. É recorrente na literatura comparativos sobre performances de algoritmos em AVA e e-Learning, entretanto, não é recorrente na área estudos que proponham arquiteturas visando atingir um nível de consciência situacional em situações nas quais tais técnicas e procedimentos apresentam uma melhor performance.  

@@ -1,0 +1,73 @@
+This is BibTeX, Version 0.99d (TeX Live 2017/Debian)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: modelo-de-tcc.aux
+A level-1 auxiliary file: pre-textual/siglas.aux
+A level-1 auxiliary file: capitulos/introducao.aux
+A level-1 auxiliary file: capitulos/fundamentos-conceituais.aux
+A level-1 auxiliary file: capitulos/revisao-de-literatura.aux
+A level-1 auxiliary file: capitulos/metodologia.aux
+The style file: pos-textual/referencias/abntex2-alf.bst
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
+Database file #1: pos-textual/referencias/abntex2-options.bib
+Database file #2: pos-textual/referencias/TCC.bib
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
+Reallocated global_strs (elt_size=20001) to 20 items from 10.
+Reallocated glb_str_end (elt_size=4) to 20 items from 10.
+Warning--campo note vazio em Fernandes2017
+Warning--campo note vazio em Santos2016
++---------------------------------------------------------+
+| Estilo bibliográfico abntex2-alf.bst versão v-1.9.2           |
+| Em caso de dúvidas ou problemas com este estilo procure |
+| http://abntex2.googlecode.com                           |
++---------------------------------------------------------+
+You've used 34 entries,
+            6711 wiz_defined-function locations,
+            1461 strings with 18917 characters,
+and the built_in function-call counts, 50577 in all, are:
+= -- 5686
+> -- 1183
+< -- 1182
++ -- 1610
+- -- 350
+* -- 3364
+:= -- 6319
+add.period$ -- 152
+call.type$ -- 34
+change.case$ -- 399
+chr.to.int$ -- 76
+cite$ -- 35
+duplicate$ -- 4653
+empty$ -- 1976
+format.name$ -- 1707
+if$ -- 10324
+int.to.chr$ -- 0
+int.to.str$ -- 0
+missing$ -- 588
+newline$ -- 196
+num.names$ -- 165
+pop$ -- 730
+preamble$ -- 1
+purify$ -- 148
+quote$ -- 0
+skip$ -- 4809
+stack$ -- 1
+substring$ -- 2195
+swap$ -- 1788
+text.length$ -- 64
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 11
+warning$ -- 2
+while$ -- 266
+width$ -- 0
+write$ -- 563
+(There were 2 warnings)

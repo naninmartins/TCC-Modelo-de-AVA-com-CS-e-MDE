@@ -1,0 +1,267 @@
+\providecommand{\abntreprintinfo}[1]{%
+ \citeonline{#1}}
+\setlength{\labelsep}{0pt}\begin{thebibliography}{}
+\providecommand{\abntrefinfo}[3]{}
+\providecommand{\abntbstabout}[1]{}
+\abntbstabout{v-1.9.2 }
+
+\bibitem[Ahmad e Shamsuddin 2010]{Ahmad_Shamsuddin_2010}
+\abntrefinfo{Ahmad e Shamsuddin}{AHMAD; SHAMSUDDIN}{2010}
+{AHMAD, N. B.~H.; SHAMSUDDIN, S.~M. {A comparative analysis of mining
+  techniques for automatic detection of student's learning style}. In:
+  \textbf{2010 10th Int. Conf. Intell. Syst. Des. Appl.} [s.n.], 2010. p.
+  877--882.
+ISBN 978-1-4244-8134-7. Dispon{\'\i}vel em:
+  \url{http://ieeexplore.ieee.org/document/5687150/}.}
+
+\bibitem[Baker, Isotani e Carvalho 2011]{Baker_Isotani_Carvalho_2011}
+\abntrefinfo{Baker, Isotani e Carvalho}{BAKER; ISOTANI; CARVALHO}{2011}
+{BAKER, R.; ISOTANI, S.; CARVALHO, A. {Minera{\c{c}}{\~{a}}o de Dados
+  Educacionais: Oportunidades para o Brasil}.
+\textbf{Rev. Bras. Inform{\'{a}}tica na Educ.}, v.~19, n.~02, 2011.
+ISSN 1414-5685.
+Dispon{\'\i}vel em:
+  \url{http://www.br-ie.org/pub/index.php/rbie/article/view/1301}.}
+
+\bibitem[Berti 2017]{Berti2017}
+\abntrefinfo{Berti}{BERTI}{2017}
+{BERTI, C.~B.
+\textbf{{MODELO PREDITIVO DE SITUA{\c{C}}{\~{O}}ES COMO APOIO {\`{A}}
+  CONSCI{\^{E}}NCIA SITUACIONAL E AO PROCESSO DECIS{\'{O}}RIO EM SISTEMAS DE
+  RESPOSTA {\`{A}} EMERG{\^{E}}NCIA}}.
+150~p. Tese (Doutorado) --- UNIVERSIDADE FEDERAL DE S{\~{A}}O CARLOS, 2017.}
+
+\bibitem[Dias et al. 2008]{Dias_e_Filho_etal_2008}
+\abntrefinfo{Dias et al.}{DIAS et al.}{2008}
+{DIAS, M.~M. et al. {Aplica{\c{c}}{\~{a}}o de T{\'{e}}cnicas de
+  Minera{\c{c}}{\~{a}}o de Dados no Processo de Aprendizagem na
+  Educa{\c{c}}{\~{a}}o a Dist{\^{a}}ncia}.
+\textbf{Brazilian Symp. Comput. Educ. (Simp{\'{o}}sio Bras. Inform{\'{a}}tica
+  na Educ. - SBIE)}, v.~1, n.~1, p. 105--114, 2008.
+ISSN 2316-6533.
+Dispon{\'\i}vel em:
+  \url{http://www.br-ie.org/pub/index.php/sbie/article/view/693}.}
+
+\bibitem[Dor{\c{c}}a 2012]{Dorca2012}
+\abntrefinfo{Dor{\c{c}}a}{DOR{\c{C}}A}{2012}
+{DOR{\c{C}}A, F.~A.
+\textbf{{Uma Abordagem Estoc{\'{a}}stica Baseada em Aprendizagem por
+  Refor{\c{c}}o para Modelagem Autom{\'{a}}tica e Din{\^{a}}mica de Estilos de
+  Aprendizagem de Estudantes em Sistemas Adaptativos e Inteligentes para
+  Educa{\c{c}}{\~{a}}o a Dist{\^{a}}ncia}}.
+207~p. Tese (Doutorado) --- Universidade Federal de Uberl{\^{a}}ndia, 2012.}
+
+\bibitem[Endsley 1988]{Endsley1988}
+\abntrefinfo{Endsley}{ENDSLEY}{1988}
+{ENDSLEY, M.~R. {PROCEEDINGS OF THE HUMAN FACTORS SOCIETY-32nd ANNUAL
+  MEETING1988}. In:  \textbf{Proc. Hum. FACTORS Soc.} Hawthorne, CA: [s.n.],
+  1988. p. 97--101.}
+
+\bibitem[Endsley 1995]{Endsley1995}
+\abntrefinfo{Endsley}{ENDSLEY}{1995}
+{ENDSLEY, M.~R. {Toward a Theory of Situation Awareness in Dynamic Systems}.
+\textbf{Hum. Factors J. Hum. Factors Ergon. Soc.}, v.~37, n.~1, p. 32--64,
+  1995.
+ISSN 0018-7208.
+Dispon{\'\i}vel em:
+  \url{http://journals.sagepub.com/doi/10.1518/001872095779049543}.}
+
+\bibitem[Endsley e Jones 2012]{Endsley2012}
+\abntrefinfo{Endsley e Jones}{ENDSLEY; JONES}{2012}
+{ENDSLEY, M.~R.; JONES, D.~G. \textbf{{Designing for Situation Awareness: An
+  Approach to User-Centered Design}}. Second edi. [S.l.]: CRC Press, 2012.
+ISBN 978-1-4200-6355 (pbk).}
+
+\bibitem[Falci et al. 2018]{Falci_et_al_2018}
+\abntrefinfo{Falci et al.}{FALCI et al.}{2018}
+{FALCI, S.~H. et al. {Detec{\c{c}}{\~{a}}o de Estilos de Aprendizagem
+  Utilizando L{\'{o}}gica Fuzzy e Categoriza{\c{c}}{\~{a}}o de Refor{\c{c}}os}.
+  In:  . [S.l.: s.n.], 2018.}
+
+\bibitem[Falci et al. 2016]{Falci_et_al_2016}
+\abntrefinfo{Falci et al.}{FALCI et al.}{2016}
+{FALCI, S.~H. et al. {Uma Nova Abordagem para Aplica{\c{c}}{\~{a}}o de
+  Refor{\c{c}}o em Sistemas Autom{\'{a}}ticos e Adaptativos de
+  Detec{\c{c}}{\~{a}}o de Estilos de Aprendizagem}.
+\textbf{Rev. Eletr{\^{o}}nica Argentina-Brasil Tecnol. da
+  Informa{\c{c}}{\~{a}}o e da Comun.}, v.~1, n.~6, 2016.
+ISSN 2446-7634.
+Dispon{\'\i}vel em:
+  \url{http://revistas.setrem.com.br/index.php/reabtic/article/view/200}.}
+
+\bibitem[Fernandes 2017]{Fernandes2017}
+\abntrefinfo{Fernandes}{FERNANDES}{2017}
+{FERNANDES, W.~L. {APLICA{\c{C}}{\~{A}}O DO ALGORITMO DE
+  CLASSIFICA{\c{C}}{\~{A}}O ASSOCIATIVA (CBA) EM BASES EDUCACIONAIS PARA
+  PREDI{\c{C}}{\~{A}}O DE DESEMPENHO}. 2017.}
+
+\bibitem[Fernandes et al. 2016]{Leite_et_al_2016}
+\abntrefinfo{Fernandes et al.}{FERNANDES et al.}{2016}
+{FERNANDES, W.~L. et al. {Levantamento e An{\'{a}}lise de Obras Recentes
+  Baseada em Minera{\c{c}}{\~{a}}o de Rela{\c{c}}{\~{o}}es e
+  Clusteriza{\c{c}}{\~{a}}o}. In:  . [s.n.], 2016. p.~970.
+ISSN 2316-8889. Dispon{\'\i}vel em:
+  \url{http://br-ie.org/pub/index.php/wcbie/article/view/7022}.}
+
+\bibitem[Garc{\'{i}}a et al. 2011]{Garcia_et_al_2011}
+\abntrefinfo{Garc{\'{i}}a et al.}{GARC{\'{I}}A et al.}{2011}
+{GARC{\'{I}}A, E. et al. {A collaborative educational association rule mining
+  tool}.
+\textbf{Internet High. Educ.}, Elsevier Inc., v.~14, n.~2, p. 77--88, 2011.
+ISSN 10967516.
+Dispon{\'\i}vel em: \url{http://dx.doi.org/10.1016/j.iheduc.2010.07.006}.}
+
+\bibitem[Goldschmidt, Passos e Bezerra 2005]{Goldschmidt_Passos_2005}
+\abntrefinfo{Goldschmidt, Passos e Bezerra}{GOLDSCHMIDT; PASSOS; BEZERRA}{2005}
+{GOLDSCHMIDT, R.; PASSOS, E.; BEZERRA, E. \textbf{{Data Mining: Um Guia
+  Pr{\'{a}}tico - Conceitos, T{\'{e}}cnicas, Ferramentas,
+  Orienta{\c{c}}{\~{o}}es e Aplica{\c{c}}{\~{o}}es}}. [S.l.: s.n.], 2005.
+  250~p.}
+
+\bibitem[Krishnaswamy et al. 2005]{Krishnaswamy_et_al_2005}
+\abntrefinfo{Krishnaswamy et al.}{KRISHNASWAMY et al.}{2005}
+{KRISHNASWAMY, S. et al. {Towards situation-awareness and ubiquitous data
+  mining for road safety: Rationale and architecture for a compelling
+  application}.
+\textbf{Researchportal.Port.Ac.Uk}, 2005.
+Dispon{\'\i}vel em: \url{http://eprints.qut.edu.au/9684/}.}
+
+\bibitem[Matthews et al. 2001]{Matthews_et_al_2001}
+\abntrefinfo{Matthews et al.}{MATTHEWS et al.}{2001}
+{MATTHEWS, M. et al. {Model for Situation Awareness and Driving: Application to
+  Analysis and Research for Intelligent Transportation Systems}.
+\textbf{Transp. Res. Rec. J. Transp. Res. Board}, v.~1779, n. January, p.
+  26--32, 2001.
+ISSN 0361-1981.
+Dispon{\'\i}vel em: \url{http://trrjournalonline.trb.org/doi/10.3141/1779-04}.}
+
+\bibitem[McGuinness e Foy 2000]{McGuinnes_Foy_2000}
+\abntrefinfo{McGuinness e Foy}{MCGUINNESS; FOY}{2000}
+{MCGUINNESS, B.; FOY, L. {A subjective measure of SA: The Crew Awareness Rating
+  Scale (CARS)}. In:  . Savannah, Georgia: [s.n.], 2000.}
+
+\bibitem[Mitsch et al. 2013]{Mitsch_et_al_2013}
+\abntrefinfo{Mitsch et al.}{MITSCH et al.}{2013}
+{MITSCH, S. et al. {A survey on clustering techniques for situation awareness}.
+  In:  \textbf{Lect. Notes Comput. Sci. (including Subser. Lect. Notes Artif.
+  Intell. Lect. Notes Bioinformatics)}. [S.l.: s.n.], 2013. v. 7808 LNCS, p.
+  815--826.
+ISBN 9783642374005.
+ISSN 03029743.}
+
+\bibitem[Moreira 1996]{Moreira1996}
+\abntrefinfo{Moreira}{MOREIRA}{1996}
+{MOREIRA, M.~A. {MODELOS MENTAIS}.
+\textbf{Investig. em Ensino Ci{\^{e}}ncias}, v.~1, n.~3, p. 193--232, 1996.
+Dispon{\'\i}vel em:
+  \url{http://www.lume.ufrgs.br/bitstream/handle/10183/141162/000292664.pdf?sequence=1}.}
+
+\bibitem[Naderpour, Lu e Zhang 2014]{Naderpour_Lu_Zhang_2014}
+\abntrefinfo{Naderpour, Lu e Zhang}{NADERPOUR; LU; ZHANG}{2014}
+{NADERPOUR, M.; LU, J.; ZHANG, G. {The explosion at institute: Modeling and
+  analyzing the situation awareness factor}.
+\textbf{Accid. Anal. Prev.}, Elsevier Ltd, v.~73, p. 209--224, 2014.
+ISSN 00014575.
+Dispon{\'\i}vel em: \url{http://dx.doi.org/10.1016/j.aap.2014.09.008}.}
+
+\bibitem[Rabelo et al. 2017]{Rabelo_et_al2017}
+\abntrefinfo{Rabelo et al.}{RABELO et al.}{2017}
+{RABELO, H. et al. {Utiliza{\c{c}}{\~{a}}o de t{\'{e}}cnicas de
+  minera{\c{c}}{\~{a}}o de dados educacionais para predi{\c{c}}{\~{a}}o de
+  desempenho de alunos de EaD em ambientes virtuais de aprendizagem}. In:  .
+  [s.n.], 2017. p.~1527.
+ISSN 2316-6533. Dispon{\'\i}vel em:
+  \url{http://www.br-ie.org/pub/index.php/sbie/article/view/7684}.}
+
+\bibitem[Ribeiro et al. 2017]{Ribeiro_et_al_2017}
+\abntrefinfo{Ribeiro et al.}{RIBEIRO et al.}{2017}
+{RIBEIRO, P. et al. {Detec{\c{c}}{\~{a}}o de Estilos de Aprendizagem utilizando
+  M{\'{e}}dia M{\'{o}}vel Exponencialmente Ponderada}.
+n. November, p.~1247, 2017.
+Dispon{\'\i}vel em:
+  \url{http://www.br-ie.org/pub/index.php/sbie/article/view/7653}.}
+
+\bibitem[Romero e Ventura 2013]{Romero_Ventura_2013}
+\abntrefinfo{Romero e Ventura}{ROMERO; VENTURA}{2013}
+{ROMERO, C.; VENTURA, S. {Data mining in education}.
+\textbf{Wiley Interdiscip. Rev. Data Min. Knowl. Discov.}, v.~3, n.~1, p.
+  12--27, 2013.
+ISSN 19424787.}
+
+\bibitem[Romero, Ventura e Bra 2004]{Romero_Ventura_Bra_2004}
+\abntrefinfo{Romero, Ventura e Bra}{ROMERO; VENTURA; BRA}{2004}
+{ROMERO, C.; VENTURA, S.; BRA, P. {Knowledge discovery with genetic programming
+  for providing feedback to courseware author}.
+\textbf{User Model. User-Adapted Interact. J. Pers. Res. 14(5)}, p. 425--464,
+  2004.}
+
+\bibitem[{Rouse, W. B., and Morris} 1985]{Rouse1985}
+\abntrefinfo{{Rouse, W. B., and Morris}}{{Rouse, W. B., and Morris}}{1985}
+{{Rouse, W. B., and Morris}, N.~M. {On looking into the black box: Prospects
+  and limits in the search for mental mod- els (OTIC AD-AI59080)}.
+\textbf{Georg. Inst. Technol. Cent. Man-Machine Syst. Res.}, Atlanta, GA,
+  1985.}
+
+\bibitem[Roy, Breton e Rousseau 2007]{Roy_Breton_Rousseau_2007}
+\abntrefinfo{Roy, Breton e Rousseau}{ROY; BRETON; ROUSSEAU}{2007}
+{ROY, J.; BRETON, R.; ROUSSEAU, R. \textbf{{Concepts, Models, and Tools for
+  Information Fusion}}. [S.l.]: Artech House , INC, 2007. 155~p.
+ISBN 978-1-59693-081-0.}
+
+\bibitem[Salazar et al. 2017]{Salazar_Vivas_Luciana_2017}
+\abntrefinfo{Salazar et al.}{SALAZAR et al.}{2017}
+{SALAZAR, L. et al. {Detec{\c{c}}{\~{a}}o de Estilos de Aprendizagem em
+  Ambientes Virtuais de Aprendizagem Utilizando Redes Bayesianas}.
+n. November, p.~1317, 2017.
+Dispon{\'\i}vel em:
+  \url{http://www.br-ie.org/pub/index.php/sbie/article/view/7660}.}
+
+\bibitem[Salerno, Hinman e Boulware 2004]{Salerno_Hinman_Boulware_2004}
+\abntrefinfo{Salerno, Hinman e Boulware}{SALERNO; HINMAN; BOULWARE}{2004}
+{SALERNO, J.; HINMAN, M.; BOULWARE, D. {Building A Framework For Situation
+  Awareness}.
+\textbf{Seventh Int. Conf. Inf. Fusion}, v.~28, p. 680--686, 2004.
+Dispon{\'\i}vel em:
+  \url{http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.63.1633{\&}rep=rep1{\&}ty}.}
+
+\bibitem[Santos 2016]{Santos2016}
+\abntrefinfo{Santos}{SANTOS}{2016}
+{SANTOS, R. M.~M. dos. {Tecnicas de Aprendizagem de Maquina Utilizadas na
+  Previs{\~{a}}o de Desempenho Academico}. 2016.}
+
+\bibitem[Sena et al. 2016]{Sena_etal_2016}
+\abntrefinfo{Sena et al.}{SENA et al.}{2016}
+{SENA, E. et al. {Proposta de uma Abordagem Computacional para
+  Detec{\c{c}}{\~{a}}o Autom{\'{a}}tica de Estilos de Aprendizagem Utilizando
+  Modelos Ocultos de Markov e FSLSM}.
+n. November, p.~1126, 2016.
+ISSN 2316-6533.
+Dispon{\'\i}vel em:
+  \url{http://www.br-ie.org/pub/index.php/sbie/article/view/6798}.}
+
+\bibitem[Silva et al. 2012]{Silva_et_al_2012}
+\abntrefinfo{Silva et al.}{SILVA et al.}{2012}
+{SILVA, A. W.~L. et al. {Consci{\^{e}}ncia Da Situa{\c{c}}{\~{a}}o Em Equipes
+  Transdisciplinares}.
+\textbf{Ci{\^{e}}ncias e Cogni{\c{c}}{\~{a}}o / Sci. Cogn.}, v.~17, n.~2, p.
+  115--134, 2012.
+ISSN 1806-5821.
+Dispon{\'\i}vel em:
+  \url{http://www.cienciasecognicao.org/revista/index.php/cec/article/view/792{\\%}5Cnhttp://www.cienciasecognicao.org/revista/index.php/cec/article/download/792/}.}
+
+\bibitem[Silva et al. 2017]{Silva_etal_2017}
+\abntrefinfo{Silva et al.}{SILVA et al.}{2017}
+{SILVA, J.~C. et al. {Detec{\c{c}}{\~{a}}o Autom{\'{a}}tica e Din{\^{a}}mica de
+  Estilos de Aprendizagem em Sistemas Adaptativos e Inteligentes utilizando
+  Dynamic Scripting}.
+n. October, p.~1327, 2017.
+Dispon{\'\i}vel em:
+  \url{http://www.br-ie.org/pub/index.php/sbie/article/view/7661}.}
+
+\bibitem[Yin et al. 2012]{Yin_et_al_2012}
+\abntrefinfo{Yin et al.}{YIN et al.}{2012}
+{YIN, J. et al. {Using social media to enhance emergency situation awareness}.
+\textbf{IEEE Comput. Soc.}, v.~27, p. 52--59, 2012.
+ISSN 10450823.}
+
+\end{thebibliography}
