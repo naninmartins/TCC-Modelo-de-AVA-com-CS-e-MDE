@@ -1,12 +1,57 @@
 \chapter{Modelo de Apoio ao Ensino em Ambientes Virtuais de Aprendizagem sustentado por Consciência Situacional}
 
-Este capítulo apresenta o Modelo de Apoio ao Ensino orientado a Consciência Situacional. O protótipo visa descrever como módulos e sistemas poderiam ser construídos cooperando com o processo de aquisição de conhecimento em AVA's, auxiliando o docente na correta interpretação do conhecimento do aluno. 
+\section{Considerações Iniciais}
 
+Este capítulo apresenta o Modelo de Apoio ao Ensino orientado a Consciência Situacional. O protótipo visa descrever como um sistema pode ser construído visando a consciência do ambiente em AVA's, auxiliando assim o docente na correta interpretação do conhecimento do aluno. Pretende-se especificar como um sistema consciente pode ser modelado em AVA's conforme suas entradas de dados e situações que devem ser abrangidas dentro de um ambiente educacional. 
 
-\section{Primeira seção da Metodologia}
+Modelos Mentais e Situações Prototípicas oriundos de conhecimentos prévios norteiam o operador na tomada de ações necessárias sobre a situação em curso, Mineração de Dados Educacionais atuam como um motor auxiliador na síntese de dados gerando informações que serão relacionadas aos modelos e situações pré-definidas identificadas uma situação e re-alimentando a base de conhecimentos prévios. 
 
-Texto da primeira seção.
+\section{Modelo Conceitual}
 
-\section{Segunda seção da Metodologia.}
+O modelo conceitual traduz-se em uma descrição de alto-nível sobre o escopo do que deseja ensinar, ressaltando aspectos equivalentes ao corpo estrutural do conhecimento, seu desenvolvimento promove conceitos relevantes para compreender a situação do ambiente, seus relacionamentos e sua estrutura representativa. Módulos genéricos propostos podem ser aplicados diretamente na construção de representações sobre conteúdo educacional, módulos educacionais categorizam-se basicamente por conter conteúdos teóricos e práticos, tais módulos podem ser declarados com uma combinação de "blocos de conteúdo" que podem ser utilizados por mais de um autor, com objetivos e abordagens diferentes \cite{Barbosa_2004}. 
 
-Texto da segunda seção.
+A modelagem proposta neste trabalho transcreve o ambiente escolar para processamento computacional. A figura \ref{modeloSAemAVA} representa o fluxo nos quais os dados captados no ambiente seguem e os módulos que um sistema consciente necessita orientando a implementação de ferramentas que processem e auxiliem os usuários na interação com o sistema.
+
+\begin{figure}[htb]
+	
+	\centering
+	\includegraphics[scale=0.4]{figuras/teste_modelo}
+	\caption{Modelo de Apoio ao Ensino em Ambientes Virtuais de Aprendizagem sustentado por Consciência Situacional. Fonte: elaborado pelo autor }
+	\label{modeloSAemAVA}
+	
+\end{figure}
+
+\section{Ambiente Educacional}   
+
+O universo educacional representa toda as relações que circundam o professores e alunos quando estes vivenciam o processo de ensino e aprendizado, o mapeamento de relações e ações que abrangem esta esfera é incerto e complexo, ainda assim, é possível definir os dados primordiais e ações sobre os mesmo que possam alimentar o modelo para obtenção da Consciência.
+
+Conforme reiterado por \citeonline{Barbosa_2004} módulos educacionais são compostos essencialmente por conteúdos teóricos e práticos, assim sendo, ocorre a alimentação do sistema por um Banco de Dados preenchidos com o material durante a interação com o modelo. Entende-se por conteúdo teórico como informações e referências na web, transparências, anotações de aula, áudio e vídeo associados, etc. Por outro lado conteúdo prático denota as atividades e avaliações guiadas no processo, assim como o resultado das mesmas (documentos, códigos-fonte, programas executáveis, discussões, experimentos). Estes conteúdos são ligados aos agentes a partir da interface computacional, interagindo diretamente com Aluno e Professor.
+
+Apesar da modelagem genérica o Banco de Dados deve adaptar-se as necessidades particulares dos agentes, em outras palavras, suponha que exista um AVA especialista no ensino de Física, diante do exposto o BD deve tratar diferentemente seu conteúdo para um estudante de ensino médio em relação a um pesquisador de pós-graduação.
+
+\section{Pré-Processamento e Percepção}
+
+A percepção consiste em notar os sinais do ambiente, como primeiro passo na aquisição de Consciência Situacional, desempenha papel primordial na obtenção dos dados. O resultado decorrente da interação Aluno X Professor X Conteúdos Teóricos/Práticos consiste na principal fonte de entrada de dados que  alimentam o modelo consciente da situação.
+
+Levando em conta a ampla gama de resultados oriundos das interações dos agentes faz-se necessário consolidar e transformar estes dados em um formato mais simples de modo que o tempo aplicado nas etapas posteriores seja consumido primordialmente de acordo com a definição de suas funções do que a adequação destes dados as ferramentas e procedimentos pospositivos. A fase de Pré-Processamento age sobre dados crus realizando ações como limpeza de prováveis dados sujos e estruturação destes conteúdos como entradas da etapa de Compreensão. Este procedimento pode ser feito com a ajuda de várias técnicas computacionais assim todos os dados independente da fonte representada serão manipulados.    
+
+\section{Compreensão}
+
+A compreensão pode ser considerado um processo cognitivo, analisando-se as variáveis ambientais é possível assimilar as relações existentes no universo, este processo só se torna possível graças a atuação de métodos e técnicas utilizados para a normatização e ou identificação da situação. Inúmeras abordagens podem ser encarregadas desta função. Como mencionado no capítulo 3 \citeonline{Berti2017} utiliza redes Bayesianas, \citeonline{Salerno_Hinman_Boulware_2004} um modelo de Fusão de Dados JDL, \citeonline{Mitsch_et_al_2013} evidenciam técnicas de clusterização.
+
+Este modelo estabelece as estratégias utilizadas em Mineração de Dados Educacionais como agente descobridor do conhecimento, suas inúmeras técnicas providenciam um abrangente campo de atuação já referenciado à inúmeras aplicações em educação, bem como resultados e parâmetros de quais técnicas pode ser melhor mapeadas em específicos conjuntos de dados, facilitando a correspondência do melhor método a cada situação. DME explora os dados disponíveis à procura de padrões consistentes, relacionamentos, associações explicitando tais informações ocultas no BD.
+
+Modelos mentais serão de grande importância na definição das relações, empregues tanto nos dados a serem processados assim como nas técnicas e métodos utilizados pela EDM, assim as situações prototípicas e mapas mentais agem sobre os dados puros e sobre meios que tais dados podem ser processados dado cada condição.
+
+\section{Projeção}
+
+Quando projeta-se situações futuras anseia ensaiar possíveis caminhos e consequências advindas de cada decisão, o ato de projetar examina quais prováveis alterações arremeterão no Ambiente Educacional e como isso impactará o estado de todo sistema e de cada agente interno. Novamente os modelos mentais serão o propulsor doando esquemas para a imaginação de possíveis estados. A projeção diferentemente da Compreensão não trabalha diretamente com métodos de EDM sendo que o objetivo é que os dados cheguem a este passo tratados explicitando conhecimentos relevantes.
+
+\section{Objetivos, Modelos Mentais}
+
+Conforme \citeonline{Salerno_Hinman_Boulware_2004} o processo de construir um framework para CS inicializa com a análise e definição do problema em interesse, que inicia adaptando a base do modelo para seus propósitos fundamentais. A experiência e o conhecimento é obtido através de resultados e experiências prévias, transformando-os em modelos e mapas mentais quais documentam estes conhecimentos.
+
+Os agentes do ambiente traçam os objetivos esperados durante a execução do modelo, e para cada parâmetro destes objetivos podem ser traçados Modelos Mentais e Esquemas definindo padrões que aconselham quais dados/informações o sistema necessita coletar para desenvolver um entendimento do que está acontecendo. "Os esquemas agem como atalhos, fornecendo a compreensão e projeção da situação em um simples passo, especialmente quando as situações envolvem grandes volumes de dados" \cite{Berti2017}. 
+
+Os Modelos Mentais geram padrões sobre como os dados devem ser tratados, agindo diretamente sobre a atuação do módulo de DME. Em uma situação empírica ótima os modelos mentais deveriam ser capazes de sugerir quais possíveis melhores métodos incorporados a DME adequam-se para obtenção do resultado esperado. 
+ 

@@ -29,45 +29,45 @@ Warning--campo note vazio em Santos2016
 | Em caso de dúvidas ou problemas com este estilo procure |
 | http://abntex2.googlecode.com                           |
 +---------------------------------------------------------+
-You've used 34 entries,
+You've used 35 entries,
             6711 wiz_defined-function locations,
-            1461 strings with 18917 characters,
-and the built_in function-call counts, 50577 in all, are:
-= -- 5686
-> -- 1183
-< -- 1182
-+ -- 1610
-- -- 350
-* -- 3364
-:= -- 6319
-add.period$ -- 152
-call.type$ -- 34
-change.case$ -- 399
-chr.to.int$ -- 76
-cite$ -- 35
-duplicate$ -- 4653
-empty$ -- 1976
-format.name$ -- 1707
-if$ -- 10324
+            1465 strings with 19056 characters,
+and the built_in function-call counts, 51092 in all, are:
+= -- 5712
+> -- 1198
+< -- 1183
++ -- 1615
+- -- 355
+* -- 3397
+:= -- 6398
+add.period$ -- 155
+call.type$ -- 35
+change.case$ -- 406
+chr.to.int$ -- 77
+cite$ -- 36
+duplicate$ -- 4683
+empty$ -- 2021
+format.name$ -- 1730
+if$ -- 10438
 int.to.chr$ -- 0
 int.to.str$ -- 0
-missing$ -- 588
-newline$ -- 196
-num.names$ -- 165
-pop$ -- 730
+missing$ -- 604
+newline$ -- 201
+num.names$ -- 170
+pop$ -- 751
 preamble$ -- 1
-purify$ -- 148
+purify$ -- 151
 quote$ -- 0
-skip$ -- 4809
+skip$ -- 4838
 stack$ -- 1
-substring$ -- 2195
-swap$ -- 1788
-text.length$ -- 64
+substring$ -- 2212
+swap$ -- 1797
+text.length$ -- 65
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 11
 warning$ -- 2
-while$ -- 266
+while$ -- 272
 width$ -- 0
-write$ -- 563
+write$ -- 577
 (There were 2 warnings)
