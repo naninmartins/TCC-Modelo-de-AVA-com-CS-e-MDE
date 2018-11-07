@@ -25,4 +25,6 @@
 \contentsline {section}{\numberline {4.5}Compreens\~ao}{23}
 \contentsline {section}{\numberline {4.6}Proje\c c\~ao}{24}
 \contentsline {section}{\numberline {4.7}Objetivos, Modelos Mentais}{24}
+\contentsline {subsection}{\numberline {4.7.1}Objetivos}{25}
+\contentsline {subsection}{\numberline {4.7.2}Modelos Mentais}{25}
 \contentsline {chapter}{REFER\^ENCIAS}{27}
