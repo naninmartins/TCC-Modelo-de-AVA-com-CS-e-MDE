@@ -19,12 +19,14 @@
 \contentsline {section}{\numberline {3.3}Considera\c c\~oes Finais}{20}
 \contentsline {chapter}{4 \MakeUppercase {Modelo de Apoio ao Ensino em Ambientes Virtuais de Aprendizagem sustentado por Consci\^encia Situacional}}{21}
 \contentsline {section}{\numberline {4.1}Considera\c c\~oes Iniciais}{21}
-\contentsline {section}{\numberline {4.2}Modelo Conceitual}{21}
-\contentsline {section}{\numberline {4.3}Ambiente Educacional}{22}
-\contentsline {section}{\numberline {4.4}Pr\'e-Processamento e Percep\c c\~ao}{23}
-\contentsline {section}{\numberline {4.5}Compreens\~ao}{23}
-\contentsline {section}{\numberline {4.6}Proje\c c\~ao}{24}
-\contentsline {section}{\numberline {4.7}Objetivos, Modelos Mentais}{24}
-\contentsline {subsection}{\numberline {4.7.1}Objetivos}{25}
-\contentsline {subsection}{\numberline {4.7.2}Modelos Mentais}{25}
-\contentsline {chapter}{REFER\^ENCIAS}{27}
+\contentsline {section}{\numberline {4.2}Perspectiva Conceitual}{21}
+\contentsline {subsection}{\numberline {4.2.1}Ambiente Educacional}{22}
+\contentsline {subsection}{\numberline {4.2.2}M\'odulo Controlador}{23}
+\contentsline {subsubsection}{\numberline {4.2.2.1}Objetivos}{23}
+\contentsline {subsubsection}{\numberline {4.2.2.2}Modelos Mentais}{24}
+\contentsline {subsection}{\numberline {4.2.3}Pr\'e-Processamento e Percep\c c\~ao}{25}
+\contentsline {subsection}{\numberline {4.2.4}Compreens\~ao}{26}
+\contentsline {subsection}{\numberline {4.2.5}Proje\c c\~ao}{26}
+\contentsline {subsection}{\numberline {4.2.6}Tomada de Decis\~ao}{27}
+\contentsline {section}{\numberline {4.3}Perspectiva Computacional}{27}
+\contentsline {chapter}{REFER\^ENCIAS}{29}
