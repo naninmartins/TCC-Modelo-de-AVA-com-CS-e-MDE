@@ -1,6 +1,11 @@
 This is BibTeX, Version 0.99d (TeX Live 2017/Debian)
 Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: modelo-de-tcc.aux
+A level-1 auxiliary file: pre-textual/dedicatoria.aux
+A level-1 auxiliary file: pre-textual/agradecimento.aux
+A level-1 auxiliary file: pre-textual/epigrafe.aux
+A level-1 auxiliary file: pre-textual/resumo-ptbr.aux
+A level-1 auxiliary file: pre-textual/resumo-en.aux
 A level-1 auxiliary file: pre-textual/siglas.aux
 A level-1 auxiliary file: capitulos/introducao.aux
 A level-1 auxiliary file: capitulos/fundamentos-conceituais.aux
@@ -31,7 +36,7 @@ Warning--campo note vazio em Santos2016
 +---------------------------------------------------------+
 You've used 35 entries,
             6711 wiz_defined-function locations,
-            1465 strings with 19056 characters,
+            1470 strings with 19188 characters,
 and the built_in function-call counts, 51092 in all, are:
 = -- 5712
 > -- 1198

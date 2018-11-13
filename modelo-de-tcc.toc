@@ -21,7 +21,7 @@
 \contentsline {section}{\numberline {4.1}Considera\c c\~oes Iniciais}{21}
 \contentsline {section}{\numberline {4.2}Perspectiva Conceitual}{21}
 \contentsline {subsection}{\numberline {4.2.1}Ambiente Educacional}{22}
-\contentsline {subsection}{\numberline {4.2.2}M\'odulo Controlador}{23}
+\contentsline {subsection}{\numberline {4.2.2}M\'odulo Seletor}{23}
 \contentsline {subsubsection}{\numberline {4.2.2.1}Objetivos}{23}
 \contentsline {subsubsection}{\numberline {4.2.2.2}Modelos Mentais}{24}
 \contentsline {subsection}{\numberline {4.2.3}Pr\'e-Processamento e Percep\c c\~ao}{25}

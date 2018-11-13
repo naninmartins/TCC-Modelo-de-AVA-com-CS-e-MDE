@@ -12,13 +12,11 @@ A perspectiva conceitual traduz o modelo em uma descrição de alto-nível sobre o 
 
 A modelagem proposta neste trabalho transcreve o ambiente escolar para processamento computacional. A figura \ref{modeloSAemAVA} representa o fluxo nos quais os dados captados no ambiente seguem e os módulos que um sistema consciente necessita orientando a implementação de ferramentas que processem e auxiliem os usuários na interação com o sistema.
 
-\begin{figure}[htb]
-	
+\begin{figure}[htb]	
 	\centering
 	\includegraphics[scale=0.6]{figuras/teste_modelov02}
-	\caption{Modelo de Apoio ao Ensino em Ambientes Virtuais de Aprendizagem sustentado por Consciência Situacional. Fonte: elaborado pelo autor }
-	\label{modeloSAemAVA}
-	
+	\caption{Modelo de Apoio ao Ensino em Ambientes Virtuais de Aprendizagem sustentado por Consciência Situacional- Perspectiva Conceitual. Fonte: elaborado pelo autor }
+	\label{modeloSAemAVA}	
 \end{figure}
 
 \subsection{Ambiente Educacional}   
@@ -29,7 +27,7 @@ Conforme reiterado por \citeonline{Barbosa_2004} módulos educacionais são compos
 
 Apesar da modelagem genérica o Banco de Dados deve adaptar-se as necessidades particulares dos agentes, em outras palavras, suponha que exista um AVA especialista no ensino de Física, diante do exposto o BD deve tratar diferentemente seu conteúdo para um estudante de ensino médio em relação a um pesquisador de pós-graduação.
 
-\subsection{Módulo Controlador}
+\subsection{Módulo Seletor}
 
 Conforme \citeonline{Salerno_Hinman_Boulware_2004} o processo de construir um framework para CS inicializa com a análise e definição do problema em interesse, que inicia adaptando a base do modelo para seus propósitos fundamentais. A experiência e o conhecimento é obtido através de resultados e experiências prévias, transformando-os em modelos e mapas mentais quais documentam estes conhecimentos.
 
@@ -45,24 +43,20 @@ Os objetivos são extremamente dinâmicos e ilustram as metas do ambiente no qual 
 
 Os Modelos Mentais compreendem as formas que representam o pensamento dos professores conforme o objetivo definido para a execução do modelo, estes modelos devem procurar representar o máximo de eventos que melhor vestem as situações comuns à aquelas iterações, assim para cada tipo de interação do ambiente com o modelo devem existir situações previamente moldadas que melhor se encaixarão naqueles padrões. Este módulo aplica-se diretamente sobre as etapas de Compreensão e Projeção. Em Compreensão os modelos mentais atuam comparando a iteração corrente com esquemas e scripts que melhor aplicam-se naquele conjunto de dados a partir do objetivo selecionado pelo docente, definindo quais métodos e técnicas dentro do módulo DME melhor se aplicam à situação (figura \ref{exScriptComp}).
 
-\begin{figure}[htb]
-	
+\begin{figure}[htb]	
 	\centering
 	\includegraphics[scale=0.6]{figuras/Script-modelo-mental}
 	\caption{Aplicação de esquemas/scripts em Compreensão. Fonte: elaborado pelo autor }
-	\label{exScriptComp}
-	
+	\label{exScriptComp}	
 \end{figure}
 
 Por sua vez os modelos mentais atuam na etapa de Projeção descrevendo o cenário, evidenciando os estados observáveis e atingíveis fundamentados pelos conhecimento evidenciados no estágio anterior, ou seja, antevem cenários atingidos pelos alunos diante das relações criadas entre os dados do sistema (figura \ref{exScriptProj}). Representam o conjunto de dados para construção da base mental deste modelo: {\bfseries \emph{Discussões e resultados sobre métodos e técnicas em DME nos trabalhos aqui referenciados e Experiência do Docente no Ensino Acadêmico}}.
 
-\begin{figure}[htb]
-	
+\begin{figure}[htb]	
 	\centering
 	\includegraphics[scale=0.6]{figuras/Script-modelo-mental2}
 	\caption{Aplicação de esquemas/scripts em Projeção. Fonte: elaborado pelo autor }
-	\label{exScriptProj}
-	
+	\label{exScriptProj}	
 \end{figure}
 
 \subsection{Pré-Processamento e Percepção}
@@ -90,6 +84,17 @@ Resultado final do processo, esta última etapa da Perspectiva Conceitual apresen
 \section{Perspectiva Computacional}
 
 A Perspectiva Computacional demonstra o modelo diante de aspectos lógicos, discretos e matemáticos afim de serem interpretados por um computador, esta representação propõe uma estruturação dos métodos e dados adequando-se a arquitetura do processamento em máquina, é incumbido de vincular os objetos anteriormente modelados, instituindo uma sequência organizacional entre eles.
+
+O modelo a seguir, ilustrado pela figura \ref{modeloSAemAVAcomp} constitui-se de três blocos principais, sendo, Ambiente Educacional, Modelo Mental e Consciência Situacional, derivando-se em 8 módulos de funcionamento do sistema. O Ambiente Educacional como descrito anteriormente neste trabalho, abriga o universo educacional, contendo docente e discente como agentes/usuários que interagem com o sistema, e um Banco de Dados que abrange os conteúdos teóricos, atividades propostas, avaliações e assim por diante. 
+
+O módulo Modelo Mental constitui-se por três sub-módulos: Seletor, Técnicas DME e Regras Decisórias. Por sua vez o módulo de Consciência Situacional contêm os sub-módulos: Filtro, Indexador, Sentenças, Mineração e Decisão. Será descrito a seguir especificadamente a ação dos sub-módulos em Modelo Mental e Consciência Situacional influenciando o fluxo de funcionamento do modelo ante a transformação do Ambiente Educacional.
+
+\begin{figure}[H]	
+	\centering
+	\includegraphics[scale=0.4]{figuras/modelo_persp_comp}
+	\caption{Modelo de Apoio ao Ensino em Ambientes Virtuais de Aprendizagem sustentado por Consciência Situacional- Perspectiva Computacional. Fonte: elaborado pelo autor }
+	\label{modeloSAemAVAcomp}	
+\end{figure}
 
  
  

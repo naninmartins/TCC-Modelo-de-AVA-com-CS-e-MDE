@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.10.16)  8 NOV 2018 06:46
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.10.16)  13 NOV 2018 00:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -904,13 +904,13 @@ da-das para constru[][]ao de aplica[][]oes
 
  (./capitulos/metodologia.tex
 Cap\'{\i }tulo 4.
-<figuras/teste_modelov02.png, id=138, 765.86125pt x 480.79625pt>
+<figuras/teste_modelov02.png, id=138, 766.865pt x 470.75874pt>
 File: figuras/teste_modelov02.png Graphic file (type png)
 <use figuras/teste_modelov02.png>
-Package pdftex.def Info: figuras/teste_modelov02.png  used on input line 18.
-(pdftex.def)             Requested size: 459.5203pt x 288.47997pt.
+Package pdftex.def Info: figuras/teste_modelov02.png  used on input line 17.
+(pdftex.def)             Requested size: 460.12256pt x 282.45743pt.
 
-Overfull \hbox (32.72896pt too wide) in paragraph at lines 18--19
+Overfull \hbox (33.33122pt too wide) in paragraph at lines 17--18
  [][] 
  []
 
@@ -929,8 +929,8 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 <figuras/Script-modelo-mental.png, id=149, 386.44376pt x 347.2975pt>
 File: figuras/Script-modelo-mental.png Graphic file (type png)
 <use figuras/Script-modelo-mental.png>
-Package pdftex.def Info: figuras/Script-modelo-mental.png  used on input line 5
-1.
+Package pdftex.def Info: figuras/Script-modelo-mental.png  used on input line 4
+8.
 (pdftex.def)             Requested size: 231.86804pt x 208.3801pt.
 
 [24 <./figuras/Script-modelo-mental.png>]
@@ -938,22 +938,22 @@ Package pdftex.def Info: figuras/Script-modelo-mental.png  used on input line 5
 File: figuras/Script-modelo-mental2.png Graphic file (type png)
 <use figuras/Script-modelo-mental2.png>
 Package pdftex.def Info: figuras/Script-modelo-mental2.png  used on input line 
-62.
+57.
 (pdftex.def)             Requested size: 208.98236pt x 193.926pt.
 
-Overfull \hbox (4.89053pt too wide) in paragraph at lines 70--71
+Overfull \hbox (4.89053pt too wide) in paragraph at lines 64--65
 \OT1/ptm/m/n/12 dos. O re-sul-tado de-cor-rente da intera[][]ao Aluno X Pro-fes
 -sor X Conte[]udos Te[]oricos/Pr[]aticos
  []
 
-[25 <./figuras/Script-modelo-mental2.png>]
-Overfull \hbox (0.44104pt too wide) in paragraph at lines 76--77
+
+Overfull \hbox (0.44104pt too wide) in paragraph at lines 70--71
 \OT1/ptm/m/n/12 e ou identifica[][]ao da situa[][]ao. In[]umeras abor-da-gens p
 o-dem ser en-car-re-ga-das desta fun[][]ao.
  []
 
-
-Overfull \hbox (20.34607pt too wide) in paragraph at lines 84--85
+[25 <./figuras/Script-modelo-mental2.png>]
+Overfull \hbox (20.34607pt too wide) in paragraph at lines 78--79
 []\OT1/ptm/m/n/12 Quando projeta-se situa[][]oes fu-tu-ras an-seia en-saiar pos
 s[]^^Pveis ca-mi-nhos e con-sequ[]encias
  []
@@ -961,21 +961,36 @@ s[]^^Pveis ca-mi-nhos e con-sequ[]encias
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [26])
-[27] (./modelo-de-tcc.bbl [28
+ [26]
+<figuras/modelo_persp_comp.png, id=163, 1080.035pt x 467.7475pt>
+File: figuras/modelo_persp_comp.png Graphic file (type png)
+<use figuras/modelo_persp_comp.png>
+Package pdftex.def Info: figuras/modelo_persp_comp.png  used on input line 94.
+(pdftex.def)             Requested size: 432.00635pt x 187.09567pt.
+
+Overfull \hbox (5.21501pt too wide) in paragraph at lines 94--95
+ [][] 
+ []
 
 
-] [29] [30] [31]) [32] (./modelo-de-tcc.aux
-(./pre-textual/dedicatoria.aux) (./pre-textual/agradecimento.aux)
-(./pre-textual/epigrafe.aux) (./pre-textual/resumo-ptbr.aux)
-(./pre-textual/resumo-en.aux) (./pre-textual/siglas.aux)
-(./capitulos/introducao.aux) (./capitulos/fundamentos-conceituais.aux)
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [27])
+[28 <./figuras/modelo_persp_comp.png>] (./modelo-de-tcc.bbl [29
+
+
+] [30] [31])
+[32] (./modelo-de-tcc.aux (./pre-textual/dedicatoria.aux)
+(./pre-textual/agradecimento.aux) (./pre-textual/epigrafe.aux)
+(./pre-textual/resumo-ptbr.aux) (./pre-textual/resumo-en.aux)
+(./pre-textual/siglas.aux) (./capitulos/introducao.aux)
+(./capitulos/fundamentos-conceituais.aux)
 (./capitulos/revisao-de-literatura.aux) (./capitulos/metodologia.aux)) ) 
 Here is how much of TeX's memory you used:
- 7297 strings out of 492982
- 97753 string characters out of 6134895
- 229721 words of memory out of 5000000
- 10567 multiletter control sequences out of 15000+600000
+ 7303 strings out of 492982
+ 97928 string characters out of 6134895
+ 229732 words of memory out of 5000000
+ 10572 multiletter control sequences out of 15000+600000
  23065 words of font info for 64 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  41i,20n,28p,3224b,387s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -985,10 +1000,10 @@ ist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fo
 nts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/t
 imes/utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pf
 b></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on modelo-de-tcc.pdf (51 pages, 557519 bytes).
+Output written on modelo-de-tcc.pdf (51 pages, 593408 bytes).
 PDF statistics:
- 204 PDF objects out of 1000 (max. 8388607)
+ 206 PDF objects out of 1000 (max. 8388607)
  132 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 41 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 46 words of extra memory for PDF output out of 10000 (max. 10000000)
 
