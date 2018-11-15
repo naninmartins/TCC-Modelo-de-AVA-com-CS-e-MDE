@@ -30,4 +30,6 @@
 \contentsline {subsection}{\numberline {4.2.6}Tomada de Decis\~ao}{27}
 \contentsline {section}{\numberline {4.3}Perspectiva Computacional}{27}
 \contentsline {subsection}{\numberline {4.3.1}Seletor}{28}
-\contentsline {chapter}{REFER\^ENCIAS}{31}
+\contentsline {subsection}{\numberline {4.3.2}T\'ecnicas DME}{30}
+\contentsline {subsection}{\numberline {4.3.3}Regras Decis\'orias}{30}
+\contentsline {chapter}{REFER\^ENCIAS}{33}

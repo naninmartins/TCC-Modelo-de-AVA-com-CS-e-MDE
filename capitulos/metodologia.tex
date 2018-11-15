@@ -105,9 +105,42 @@ O módulo Seletor atua recebendo os parâmetros de execução do sistema, adequando-
 	\item Previsão do Desempenho Acadêmico do Estudante	
 \end{enumerate} 
 
-O professor tem a liberdade de escolha do tipo de execução do sistema conforme a necessidade encontrada em sala de aula, de forma que o sistema providencie as condições necessárias para auxílio do docente no ambiente. O módulo a partir do recebimento dos parâmetros define qual o melhor tipo de comportamento do sistema para o tratamento da entrada dos dados, atua selecionando quais os melhores métodos de DME que devem ser utilizados sobre o conjunto de dados, permitindo a Compreensão dos mesmos, e extraindo regras de decisão que ajudarão o sistema na etapa de Projeção de situações conforme o resultado extraído da etapa pós-mineração.
+O professor tem a liberdade de escolha do tipo de execução do sistema conforme a necessidade encontrada em sala de aula, de forma que o sistema providencie as condições necessárias para auxílio do docente no ambiente. O módulo a partir do recebimento dos parâmetros define qual o melhor tipo de comportamento do sistema para o tratamento da entrada dos dados, atua selecionando quais os melhores métodos de DME que devem ser utilizados sobre o conjunto de dados, permitindo a Compreensão dos mesmos, e extraindo regras de decisão que ajudarão o sistema na etapa de Projeção de situações conforme o resultado extraído da etapa pós-mineração. O processo de seleção de técnicas e regras pode ser definido computacionalmente por vários métodos, segue exemplo de estruturação por Árvores de Decisão, definindo métodos em EDM para serem aplicados a etapa de Compreensão \ref{arvoreDecisao}. 
 
-O processo de seleção de técnicas e regras pode ser definido computacionalmente por vários métodos, segue exemplo de estruturação por Árvores de Decisão visto sua fácil implementação e adequação a dinamicidade do modelo. 
+\begin{figure}[H]	
+	\centering
+	\includegraphics[scale=0.52]{figuras/ArvoreDecisao}
+	\caption{Árvore de Decisão para seleção de metódo EDM. Fonte: elaborado pelo autor }
+	\label{arvoreDecisao}	
+\end{figure}
+
+A seleção e delimitação do conjunto de regras pode ser feito por várias técnicas,cita-se o modelo de \citeonline{Garcia_et_al_2011} para validação, seleção e criação de regras designados a educação. O repositório de regras é alimentado pelos docentes a partir de ações decisórias costumeiras, procedimentos e protocolos seguidos em sala de aula, rotineiramente avaliando, editando e introduzindo novas regras.
+
+
+\subsection{Técnicas DME}
+
+Este módulo receberá como entrada todas as técnicas e procedimentos necessárias para a mineração dos dados, compreende a implementação dos algoritmos que serão utilizados em Compreensão. O módulo prevê mais de um tipo algoritmo presente, afim de fornecer diferentes estruturas nas saídas dos dados possibilitando a determinação de diferentes regras decisórias. 
+
+\subsection{Regras Decisórias}
+A regras decisórias são um conjunto de associações e inferências aplicadas após a computação e processamento dos dados minerados, este conjunto permite a orientação do sistema quanto aos possíveis estados futuros diante dos resultados obtidos por aquelas variáveis (figura \ref{arvoreDecisao}).
+
+\begin{figure}[H]	
+	\centering
+	\includegraphics[scale=0.5]{figuras/regraDecisao}
+	\caption{Exemplo do formato de regra SE-ENTÃO. Fonte: traduzido e adaptado de \cite{Romero_Ventura_Bra_2004}  }
+	\label{arvoreDecisao}	
+\end{figure} 
+
+
+\citeonline{Romero_Ventura_Bra_2004} defendem que o conhecimento gerado pelas regras podem ser extremamente úteis para os coordenadores do curso, assim decidindo quais modificações seriam mais apropriadas para aumentar a efetividade das aulas. Dependendo do conhecimento gravado, correspondem-se diferentes tipos de regras, abrangendo-se as regras de: {\bfseries \emph{Decisão, Associação, Classificação, Predição, Causal e Optimização}}, em concordância com os objetivos deste trabalho, destaca-se as regras de Associação, Classificação e Predição.
+
+O objetivo de Regras de Associação é procurar por relacionamentos entre os atributos nas bases de dados, levando em conta as regras que antecedem e sucedem o estado. Um exemplo de regra de associação em Ambientes Educacionais seria: SE "aluno acessa muitos dados gráficos" ENTÃO "preferência por conteúdo visual".
+
+Regras de Classificação desenvolvem relações para criarem um sistema de classificação, visam encontrar objetos que possam ser considerados pertencentes a determinado conjunto características específicas.
+A finalidade de Regras de Predição é antecipar algum estado futuro advindo dos valores das suas variáveis avaliadas, permitindo identificar características deem pistas para uma específica saída.
+
+A regras decisórias executarão o papel de esquemas e roteiros juntamente com o módulo Seletor, determinando situações prototípicas para as relações visualizadas no estado.
+
 
  
  
