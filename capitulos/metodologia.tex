@@ -1,16 +1,10 @@
-\chapter{Modelo de Apoio ao Ensino em Ambientes Virtuais de Aprendizagem sustentado por Consciência Situacional}
+\chapter{- Modelo Conceitual}
 
 \section{Considerações Iniciais}
 
-Este capítulo apresenta o Modelo de Apoio ao Ensino orientado a Consciência Situacional. O protótipo visa descrever como um sistema pode ser construído visando a consciência do ambiente em AVA's, auxiliando assim o docente na correta interpretação do conhecimento do aluno. Pretende-se especificar como um sistema consciente pode ser modelado em AVA's conforme suas entradas de dados e situações que devem ser abrangidas dentro de um ambiente educacional. 
+O Modelo Conceitual traz uma descrição em alto-nível sobre o escopo do que deseja ensinar no ambiente educacional, ressaltando aspectos equivalentes ao corpo estrutural do conhecimento, seu desenvolvimento promove conceitos relevantes para compreender a situação do ambiente, seus relacionamentos e sua estrutura representativa. Módulos genéricos propostos podem ser aplicados diretamente na construção de representações sobre conteúdo educacional, módulos educacionais categorizam-se basicamente por conter conteúdos teóricos e práticos, tais módulos podem ser declarados com uma combinação de "blocos de conteúdos" que podem ser utilizados por mais de um autor, com objetivos e abordagens diferentes \cite{Barbosa_2004}. 
 
-Modelos Mentais e Situações Prototípicas oriundos de conhecimentos prévios norteiam o operador na tomada de ações necessárias sobre a situação em curso, Mineração de Dados Educacionais atuam como um motor auxiliador na síntese de dados gerando informações que serão relacionadas aos modelos e situações pré-definidas identificadas uma situação e re-alimentando a base de conhecimentos prévios. 
-
-\section{Perspectiva Conceitual}
-
-A perspectiva conceitual traduz o modelo em uma descrição de alto-nível sobre o escopo do que deseja ensinar, ressaltando aspectos equivalentes ao corpo estrutural do conhecimento, seu desenvolvimento promove conceitos relevantes para compreender a situação do ambiente, seus relacionamentos e sua estrutura representativa. Módulos genéricos propostos podem ser aplicados diretamente na construção de representações sobre conteúdo educacional, módulos educacionais categorizam-se basicamente por conter conteúdos teóricos e práticos, tais módulos podem ser declarados com uma combinação de "blocos de conteúdos" que podem ser utilizados por mais de um autor, com objetivos e abordagens diferentes \cite{Barbosa_2004}. 
-
-A modelagem proposta neste trabalho transcreve o ambiente escolar para processamento computacional. A figura \ref{modeloSAemAVA} representa o fluxo nos quais os dados captados no ambiente seguem e os módulos que um sistema consciente necessita orientando a implementação de ferramentas que processem e auxiliem os usuários na interação com o sistema.
+A modelagem proposta neste trabalho transcreve o ambiente escolar para o fluxo do processamento computacional. A figura \ref{modeloSAemAVA} representa o fluxo nos quais os dados captados no ambiente seguem e os módulos que um sistema consciente necessita orientando a implementação de ferramentas que processem e auxiliem os usuários na interação com o sistema.
 
 \begin{figure}[htb]	
 	\centering
@@ -19,7 +13,7 @@ A modelagem proposta neste trabalho transcreve o ambiente escolar para processam
 	\label{modeloSAemAVA}	
 \end{figure}
 
-\subsection{Ambiente Educacional}   
+\section {Ambiente Educacional}   
 
 O universo educacional representa toda as relações que circundam o professores e alunos quando estes vivenciam o processo de ensino e aprendizado, o mapeamento de relações e ações que abrangem esta esfera é incerto e complexo, ainda assim, é possível definir os dados primordiais e ações sobre os mesmo que possam alimentar o modelo para obtenção da Consciência.
 
@@ -27,7 +21,7 @@ Conforme reiterado por \citeonline{Barbosa_2004} módulos educacionais são compos
 
 Apesar da modelagem genérica o Banco de Dados deve adaptar-se as necessidades particulares dos agentes, em outras palavras, suponha que exista um AVA especialista no ensino de Física, diante do exposto o BD deve tratar diferentemente seu conteúdo para um estudante de ensino médio em relação a um pesquisador de pós-graduação.
 
-\subsection{Módulo Seletor}
+\section{Módulo Seletor}
 
 Conforme \citeonline{Salerno_Hinman_Boulware_2004} o processo de construir um framework para CS inicializa com a análise e definição do problema em interesse, que inicia adaptando a base do modelo para seus propósitos fundamentais. A experiência e o conhecimento é obtido através de resultados e experiências prévias, transformando-os em modelos e mapas mentais quais documentam estes conhecimentos.
 
@@ -35,11 +29,11 @@ Os agentes do ambiente traçam os objetivos esperados durante a execução do model
 
 Os Modelos Mentais geram padrões sobre como os dados devem ser tratados, agindo diretamente sobre a atuação do módulo de DME. Em uma situação empírica ótima os modelos mentais deveriam ser capazes de sugerir quais possíveis melhores métodos incorporados a DME adequam-se para obtenção do resultado esperado. 
 
-\subsubsection{Objetivos}
+\subsection{Objetivos}
 
 Os objetivos são extremamente dinâmicos e ilustram as metas do ambiente no qual foram inseridos, neste trabalho, ilustram os principais propósitos aplicados em Ambientes Virtuais de Aprendizagem relatados pelos os autores aqui referenciados. Os trabalhos assim atribuem-se a: {\bfseries \emph{Detecção do Estilo de Aprendizagem e Prevenção do Desempenho acadêmico do Discente}}. Estes estudos compreendem vasto conhecimento em técnicas, resultados e descrição de aplicações, gerando um vasto conhecimento prévio de ações e reações sobre os AVA's.
 
-\subsubsection{Modelos Mentais}
+\subsection{Modelos Mentais}
 
 Os Modelos Mentais compreendem as formas que representam o pensamento dos professores conforme o objetivo definido para a execução do modelo, estes modelos devem procurar representar o máximo de eventos que melhor vestem as situações comuns à aquelas iterações, assim para cada tipo de interação do ambiente com o modelo devem existir situações previamente moldadas que melhor se encaixarão naqueles padrões. Este módulo aplica-se diretamente sobre as etapas de Compreensão e Projeção. Em Compreensão os modelos mentais atuam comparando a iteração corrente com esquemas e scripts que melhor aplicam-se naquele conjunto de dados a partir do objetivo selecionado pelo docente, definindo quais métodos e técnicas dentro do módulo DME melhor se aplicam à situação (figura \ref{exScriptComp}).
 
@@ -59,13 +53,13 @@ Por sua vez os modelos mentais atuam na etapa de Projeção descrevendo o cenário,
 	\label{exScriptProj}	
 \end{figure}
 
-\subsection{Pré-Processamento e Percepção}
+\section{Pré-Processamento e Percepção}
 
 A percepção consiste em notar os sinais do ambiente, como primeiro passo na aquisição de Consciência Situacional, desempenha papel primordial na obtenção dos dados. O resultado decorrente da interação Aluno X Professor X Conteúdos Teóricos/Práticos consiste na principal fonte de entrada de dados que  alimentam o modelo consciente da situação.
 
 Levando em conta a ampla gama de resultados oriundos das interações dos agentes faz-se necessário consolidar e transformar estes dados em um formato mais simples de modo que o tempo aplicado nas etapas posteriores seja consumido primordialmente de acordo com a definição de suas funções do que a adequação destes dados as ferramentas e procedimentos pospositivos. A fase de Pré-Processamento age sobre dados crus realizando ações como limpeza de prováveis dados sujos e estruturação destes conteúdos como entradas da etapa de Compreensão. Este procedimento pode ser feito com a ajuda de várias técnicas computacionais assim todos os dados independente da fonte representada serão manipulados.    
 
-\subsection{Compreensão}
+\section{Compreensão}
 
 A compreensão pode ser considerado um processo cognitivo, analisando-se as variáveis ambientais é possível assimilar as relações existentes no universo, este processo só se torna possível graças a atuação de métodos e técnicas utilizados para a normatização e ou identificação da situação. Inúmeras abordagens podem ser encarregadas desta função. Como mencionado no capítulo 3 \citeonline{Berti2017} utiliza redes Bayesianas, \citeonline{Salerno_Hinman_Boulware_2004} um modelo de Fusão de Dados JDL, \citeonline{Mitsch_et_al_2013} evidenciam técnicas de clusterização.
 
@@ -73,93 +67,11 @@ Este modelo estabelece as estratégias utilizadas em Mineração de Dados Educacion
 
 Modelos mentais serão de grande importância na definição das relações, empregues tanto nos dados a serem processados assim como nas técnicas e métodos utilizados pela EDM, assim as situações prototípicas e mapas mentais agem sobre os meios que tais dados podem ser processados dado cada condição.
 
-\subsection{Projeção}
+\section{Projeção}
 
 Quando projeta-se situações futuras anseia ensaiar possíveis caminhos e consequências advindas de cada decisão, o ato de projetar examina quais prováveis alterações arremeterão no Ambiente Educacional e como isso impactará o estado de todo sistema e de cada agente interno. Novamente os modelos mentais serão o propulsor doando esquemas para a imaginação de possíveis estados. A projeção diferentemente da Compreensão não trabalha diretamente com métodos de EDM sendo que o objetivo é que os dados cheguem a este passo tratados explicitando conhecimentos relevantes.
 
-\subsection{Tomada de Decisão}
+\section{Tomada de Decisão}
 
 Resultado final do processo, esta última etapa da Perspectiva Conceitual apresenta a alternativa determinada pelo o usuário diante das opções suportadas pelo sistema, toda decisão impactará em uma nova configuração do Ambiente Educacional, criando assim novos parâmetros e situações em uma futura iteração.    
 
-\section{Perspectiva Computacional}
-
-A Perspectiva Computacional demonstra o modelo diante de aspectos lógicos, discretos e matemáticos afim de serem interpretados por um computador, esta representação propõe uma estruturação dos métodos e dados adequando-se a arquitetura do processamento em máquina, é incumbido de vincular os objetos anteriormente modelados, instituindo uma sequência organizacional entre eles.
-
-O modelo a seguir, ilustrado pela figura \ref{modeloSAemAVAcomp} constitui-se de três blocos principais, sendo, Ambiente Educacional, Modelo Mental e Consciência Situacional, derivando-se em 8 módulos de funcionamento do sistema. O Ambiente Educacional como descrito anteriormente neste trabalho, abriga o universo educacional, contendo docente e discente como agentes/usuários que interagem com o sistema, e um Banco de Dados que abrange os conteúdos teóricos, atividades propostas, avaliações e assim por diante. 
-
-O módulo Modelo Mental constitui-se por três sub-módulos: Seletor, Técnicas DME e Regras Decisórias. Por sua vez o módulo de Consciência Situacional contêm os sub-módulos: Filtro, Sentenças, Mineração e Decisão. Será descrito a seguir especificadamente a ação dos sub-módulos em Modelo Mental e Consciência Situacional influenciando o fluxo de funcionamento do modelo ante a transformação do Ambiente Educacional.
-
-\begin{figure}[H]	
-	\centering
-	\includegraphics[scale=0.4]{figuras/modelo_persp_comp}
-	\caption{Modelo de Apoio ao Ensino em Ambientes Virtuais de Aprendizagem sustentado por Consciência Situacional- Perspectiva Computacional. Fonte: elaborado pelo autor }
-	\label{modeloSAemAVAcomp}	
-\end{figure}
-
-\subsection{Seletor}
-
-O módulo Seletor atua recebendo os parâmetros de execução do sistema, adequando-os ao funcionamento do modelo a partir das necessidades advindas do Professor. As escolhas dos objetivos aqui definidos originaram-se a partir das aplicações e motivações dos mesmos pelos autores neste trabalho citados, compreendendo-se: 
-
-\begin{enumerate}
-	\item Detecção do Estilo de Aprendizagem	
-	\item Previsão do Desempenho Acadêmico do Estudante	
-\end{enumerate} 
-
-O professor tem a liberdade de escolha do tipo de execução do sistema conforme a necessidade encontrada em sala de aula, de forma que o sistema providencie as condições necessárias para auxílio do docente no ambiente. O módulo a partir do recebimento dos parâmetros define qual o melhor tipo de comportamento do sistema para o tratamento da entrada dos dados, atua selecionando quais os melhores métodos de DME que devem ser utilizados sobre o conjunto de dados, permitindo a Compreensão dos mesmos, e extraindo regras de decisão que ajudarão o sistema na etapa de Projeção de situações conforme o resultado extraído da etapa pós-mineração. O processo de seleção de técnicas e regras pode ser definido computacionalmente por vários métodos, segue exemplo de estruturação por Árvores de Decisão, definindo métodos em EDM para serem aplicados a etapa de Compreensão \ref{arvoreDecisao}. 
-
-\begin{figure}[H]	
-	\centering
-	\includegraphics[scale=0.52]{figuras/ArvoreDecisao}
-	\caption{Árvore de Decisão para seleção de metódo EDM. Fonte: elaborado pelo autor }
-	\label{arvoreDecisao}	
-\end{figure}
-
-A seleção e delimitação do conjunto de regras pode ser feito por várias técnicas,cita-se o modelo de \citeonline{Garcia_et_al_2011} para validação, seleção e criação de regras designados a educação. O repositório de regras é alimentado pelos docentes a partir de ações decisórias costumeiras, procedimentos e protocolos seguidos em sala de aula, rotineiramente avaliando, editando e introduzindo novas regras.
-
-
-\subsection{Técnicas DME}
-
-Este módulo receberá como entrada todas as técnicas e procedimentos necessárias para a mineração dos dados, compreende a implementação dos algoritmos que serão utilizados em Compreensão. O módulo prevê mais de um tipo algoritmo presente, afim de fornecer diferentes estruturas nas saídas dos dados possibilitando a determinação de diferentes regras decisórias. 
-
-\subsection{Regras Decisórias}
-A regras decisórias são um conjunto de associações e inferências aplicadas após a computação e processamento dos dados minerados, este conjunto permite a orientação do sistema quanto aos possíveis estados futuros diante dos resultados obtidos por aquelas variáveis (figura \ref{arvoreDecisao}).
-
-\begin{figure}[H]	
-	\centering
-	\includegraphics[scale=0.5]{figuras/regraDecisao}
-	\caption{Exemplo do formato de regra SE-ENTÃO. Fonte: traduzido e adaptado de \cite{Romero_Ventura_Bra_2004}  }
-	\label{arvoreDecisao}	
-\end{figure} 
-
-
-\citeonline{Romero_Ventura_Bra_2004} defendem que o conhecimento gerado pelas regras podem ser extremamente úteis para os coordenadores do curso, assim decidindo quais modificações seriam mais apropriadas para aumentar a efetividade das aulas. Dependendo do conhecimento gravado, correspondem-se diferentes tipos de regras, abrangendo-se as regras de: {\bfseries \emph{Decisão, Associação, Classificação, Predição, Causal e Optimização}}, em concordância com os objetivos deste trabalho, destaca-se as regras de Associação, Classificação e Predição.
-
-O objetivo de Regras de Associação é procurar por relacionamentos entre os atributos nas bases de dados, levando em conta as regras que antecedem e sucedem o estado. Um exemplo de regra de associação em Ambientes Educacionais seria: SE "aluno acessa muitos dados gráficos" ENTÃO "preferência por conteúdo visual".
-
-Regras de Classificação desenvolvem relações para criarem um sistema de classificação, visam encontrar objetos que possam ser considerados pertencentes a determinado conjunto características específicas.
-A finalidade de Regras de Predição é antecipar algum estado futuro advindo dos valores das suas variáveis avaliadas, permitindo identificar características deem pistas para uma específica saída.
-
-A regras decisórias executarão o papel de esquemas e roteiros juntamente com o módulo Seletor, determinando situações prototípicas para as relações visualizadas no estado.
-
-\subsection{Filtro}
-
-O módulo Filtro é responsável por realizar um pré-processamento nos dados de entrada selecionando os fatos de relevância e padronizando-os nos formatos necessários para execução dos algoritmos de mineração. Sua rotina consiste em realizar uma limpeza de ruídos de informações dos dados de entrada, como caracteres especiais, espaços em branco e stop-words. Também faz-se necessário a padronização dos tipos de arquivos, forma da letra e estruturação dos caracteres para que não exista imprevistos na execução dos algoritmos. 
-
-A entrada de dados do sistema modela-se basicamente em formato de texto, estes dados representam todas as interações dos agentes com a base de dados preenchida com conteúdos teóricos/práticos, resultados destas interações e estatísticas de uso do sistema.
-
-\subsection{Sentenças}
-
-A execução deste módulo destina-se a criar as sentenças que serão executadas conforme a necessidade de cada algoritmo, sua implementação dedica-se a criar frases e estruturas de dados para os possíveis procedimentos na etapa posterior, ou seja, para o conjunto de dados formado por interações do usuários, dados estatísticos e conteúdos teóricos/práticos o módulo estruturará frases, expressões e mensagens os quais dispararão as rotinas de mineração dos dados nas etapas conseguintes.
-
-\subsection{Mineração}
-
-A aplicação das técnicas de mineração ocorre, realizando a compreensão dos dados fornecidos pelo ambiente educacional. Este módulo recebe as entradas do módulo de Sentenças, e do módulo Técnicas DME, este último fornece quais procedimentos devem ser aplicados nas informações recebidas pelas sentenças. Ao final do processo deve ser possível perceber padrões, características e relações sobre o conjunto de dados.
-
-\subsection{Decisão} 
-
-A Decisão reúne as regras decisórias e a partir dos fatos adquiridos da Mineração, o módulo deve ser capaz de antecipar os eventos futuros, sugerindo as prováveis mudanças que melhor causarão impacto ao Ambiente Educacional. 
-
-O retorno das sugestões é uma junção da aplicação das regras decisórias, probabilidade de ocorrência das situações e a experiência sob o olhar do agente humano, (representado aqui pelo docente) assumindo papel de avaliador da assertividade das decisões geradas.
- 
- 
- 
