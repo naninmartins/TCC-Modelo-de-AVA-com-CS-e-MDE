@@ -87,7 +87,7 @@ A Perspectiva Computacional demonstra o modelo diante de aspectos lógicos, discr
 
 O modelo a seguir, ilustrado pela figura \ref{modeloSAemAVAcomp} constitui-se de três blocos principais, sendo, Ambiente Educacional, Modelo Mental e Consciência Situacional, derivando-se em 8 módulos de funcionamento do sistema. O Ambiente Educacional como descrito anteriormente neste trabalho, abriga o universo educacional, contendo docente e discente como agentes/usuários que interagem com o sistema, e um Banco de Dados que abrange os conteúdos teóricos, atividades propostas, avaliações e assim por diante. 
 
-O módulo Modelo Mental constitui-se por três sub-módulos: Seletor, Técnicas DME e Regras Decisórias. Por sua vez o módulo de Consciência Situacional contêm os sub-módulos: Filtro, Indexador, Sentenças, Mineração e Decisão. Será descrito a seguir especificadamente a ação dos sub-módulos em Modelo Mental e Consciência Situacional influenciando o fluxo de funcionamento do modelo ante a transformação do Ambiente Educacional.
+O módulo Modelo Mental constitui-se por três sub-módulos: Seletor, Técnicas DME e Regras Decisórias. Por sua vez o módulo de Consciência Situacional contêm os sub-módulos: Filtro, Sentenças, Mineração e Decisão. Será descrito a seguir especificadamente a ação dos sub-módulos em Modelo Mental e Consciência Situacional influenciando o fluxo de funcionamento do modelo ante a transformação do Ambiente Educacional.
 
 \begin{figure}[H]	
 	\centering
@@ -141,8 +141,25 @@ A finalidade de Regras de Predição é antecipar algum estado futuro advindo dos v
 
 A regras decisórias executarão o papel de esquemas e roteiros juntamente com o módulo Seletor, determinando situações prototípicas para as relações visualizadas no estado.
 
+\subsection{Filtro}
 
- 
+O módulo Filtro é responsável por realizar um pré-processamento nos dados de entrada selecionando os fatos de relevância e padronizando-os nos formatos necessários para execução dos algoritmos de mineração. Sua rotina consiste em realizar uma limpeza de ruídos de informações dos dados de entrada, como caracteres especiais, espaços em branco e stop-words. Também faz-se necessário a padronização dos tipos de arquivos, forma da letra e estruturação dos caracteres para que não exista imprevistos na execução dos algoritmos. 
+
+A entrada de dados do sistema modela-se basicamente em formato de texto, estes dados representam todas as interações dos agentes com a base de dados preenchida com conteúdos teóricos/práticos, resultados destas interações e estatísticas de uso do sistema.
+
+\subsection{Sentenças}
+
+A execução deste módulo destina-se a criar as sentenças que serão executadas conforme a necessidade de cada algoritmo, sua implementação dedica-se a criar frases e estruturas de dados para os possíveis procedimentos na etapa posterior, ou seja, para o conjunto de dados formado por interações do usuários, dados estatísticos e conteúdos teóricos/práticos o módulo estruturará frases, expressões e mensagens os quais dispararão as rotinas de mineração dos dados nas etapas conseguintes.
+
+\subsection{Mineração}
+
+A aplicação das técnicas de mineração ocorre, realizando a compreensão dos dados fornecidos pelo ambiente educacional. Este módulo recebe as entradas do módulo de Sentenças, e do módulo Técnicas DME, este último fornece quais procedimentos devem ser aplicados nas informações recebidas pelas sentenças. Ao final do processo deve ser possível perceber padrões, características e relações sobre o conjunto de dados.
+
+\subsection{Decisão} 
+
+A Decisão reúne as regras decisórias e a partir dos fatos adquiridos da Mineração, o módulo deve ser capaz de antecipar os eventos futuros, sugerindo as prováveis mudanças que melhor causarão impacto ao Ambiente Educacional. 
+
+O retorno das sugestões é uma junção da aplicação das regras decisórias, probabilidade de ocorrência das situações e a experiência sob o olhar do agente humano, (representado aqui pelo docente) assumindo papel de avaliador da assertividade das decisões geradas.
  
  
  

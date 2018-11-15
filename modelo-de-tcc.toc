@@ -32,4 +32,9 @@
 \contentsline {subsection}{\numberline {4.3.1}Seletor}{28}
 \contentsline {subsection}{\numberline {4.3.2}T\'ecnicas DME}{30}
 \contentsline {subsection}{\numberline {4.3.3}Regras Decis\'orias}{30}
-\contentsline {chapter}{REFER\^ENCIAS}{33}
+\contentsline {subsection}{\numberline {4.3.4}Filtro}{31}
+\contentsline {subsection}{\numberline {4.3.5}Senten\c cas}{32}
+\contentsline {subsection}{\numberline {4.3.6}Minera\c c\~ao}{32}
+\contentsline {subsection}{\numberline {4.3.7}Decis\~ao}{32}
+\contentsline {chapter}{5 \MakeUppercase {Conclus\~ao.}}{33}
+\contentsline {chapter}{REFER\^ENCIAS}{35}
