@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.10.16)  15 NOV 2018 20:31
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.10.16)  2 DEC 2018 19:14
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -724,7 +724,12 @@ ercep[][]ao, com-pre-ens[]ao e proje[][]ao
 File: figuras/Fluxo-SA.png Graphic file (type png)
 <use figuras/Fluxo-SA.png>
 Package pdftex.def Info: figuras/Fluxo-SA.png  used on input line 27.
-(pdftex.def)             Requested size: 315.5734pt x 217.60915pt.
+(pdftex.def)             Requested size: 473.37215pt x 326.42201pt.
+
+Overfull \hbox (46.58081pt too wide) in paragraph at lines 27--28
+ [][] 
+ []
+
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <12> not available
 (Font)              Font shape `OT1/ptm/b/it' tried instead on input line 32.
 
@@ -743,10 +748,7 @@ Overfull \hbox (5.03586pt too wide) in paragraph at lines 55--56
 -nhe-ci-mento pr[]evio em uma mem[]oria
  []
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [5]
+[5]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [6]
@@ -1029,14 +1031,18 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  (./capitulos/conclusao.tex
 Cap\'{\i }tulo 6.
-) [33
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [33
 
 
 
-] (./modelo-de-tcc.bbl [34
+])
+[34] (./modelo-de-tcc.bbl [35
 
 
-] [35] [36] [37]) [38] (./modelo-de-tcc.aux
+] [36] [37]) [38] (./modelo-de-tcc.aux
 (./pre-textual/dedicatoria.aux) (./pre-textual/agradecimento.aux)
 (./pre-textual/epigrafe.aux) (./pre-textual/resumo-ptbr.aux)
 (./pre-textual/resumo-en.aux) (./pre-textual/siglas.aux)
@@ -1060,7 +1066,7 @@ e/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/ty
 pe1/urw/times/utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/
 utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on modelo-de-tcc.pdf (57 pages, 722217 bytes).
+Output written on modelo-de-tcc.pdf (57 pages, 725316 bytes).
 PDF statistics:
  229 PDF objects out of 1000 (max. 8388607)
  145 compressed objects within 2 object streams
