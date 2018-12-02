@@ -11,6 +11,8 @@ A level-1 auxiliary file: capitulos/introducao.aux
 A level-1 auxiliary file: capitulos/fundamentos-conceituais.aux
 A level-1 auxiliary file: capitulos/revisao-de-literatura.aux
 A level-1 auxiliary file: capitulos/metodologia.aux
+A level-1 auxiliary file: capitulos/resultados.aux
+A level-1 auxiliary file: capitulos/conclusao.aux
 The style file: pos-textual/referencias/abntex2-alf.bst
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
@@ -36,7 +38,7 @@ Warning--campo note vazio em Santos2016
 +---------------------------------------------------------+
 You've used 35 entries,
             6711 wiz_defined-function locations,
-            1470 strings with 19188 characters,
+            1472 strings with 19235 characters,
 and the built_in function-call counts, 51092 in all, are:
 = -- 5712
 > -- 1198

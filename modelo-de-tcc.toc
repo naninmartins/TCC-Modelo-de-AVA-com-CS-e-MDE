@@ -37,6 +37,7 @@
 \contentsline {section}{\numberline {5.7}Minera\c c\~ao}{32}
 \contentsline {section}{\numberline {5.8}Decis\~ao}{32}
 \contentsline {chapter}{6 \MakeUppercase {- Conclus\~ao}}{33}
-\contentsline {section}{\numberline {6.1}Dificuldades da Pesquisa}{33}
-\contentsline {section}{\numberline {6.2}Trabalhos Futuros}{34}
+\contentsline {section}{\numberline {6.1}Considera\c c\~oes Iniciais}{33}
+\contentsline {section}{\numberline {6.2}Dificuldades da Pesquisa}{33}
+\contentsline {section}{\numberline {6.3}Trabalhos Futuros}{34}
 \contentsline {chapter}{REFER\^ENCIAS}{35}
