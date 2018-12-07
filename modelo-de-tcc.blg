@@ -25,6 +25,7 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Database file #1: pos-textual/referencias/abntex2-options.bib
 Database file #2: pos-textual/referencias/TCC.bib
+Warning--I didn't find a database entry for "Dorca201"
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
 Reallocated global_strs (elt_size=20001) to 20 items from 10.
@@ -38,7 +39,7 @@ Warning--campo note vazio em Santos2016
 +---------------------------------------------------------+
 You've used 35 entries,
             6711 wiz_defined-function locations,
-            1472 strings with 19235 characters,
+            1474 strings with 19251 characters,
 and the built_in function-call counts, 51092 in all, are:
 = -- 5712
 > -- 1198
@@ -77,4 +78,4 @@ warning$ -- 2
 while$ -- 272
 width$ -- 0
 write$ -- 577
-(There were 2 warnings)
+(There were 3 warnings)

@@ -1,12 +1,10 @@
 \chapter{- Modelo Computacional}
 
-\section{Considerações Iniciais}
-
-O Modelo Computacional representa aspectos lógicos, discretos e matemáticos afim de serem interpretados por um computador, esta representação propõe a estruturação dos métodos e dados adequando-se a arquitetura do processamento em máquina, incumbe-se assim a vinculação dos objetos anteriormente modelados, instituindo uma sequência organizacional entre eles.
-
-O modelo a seguir, ilustrado pela figura \ref{modeloSAemAVAcomp} constitui-se de três blocos principais, sendo, Ambiente Educacional, Modelo Mental e Consciência Situacional, derivando-se em 7 módulos de funcionamento do sistema. O Ambiente Educacional como descrito anteriormente neste trabalho, abriga o universo educacional, contendo docente e discente como agentes/usuários que interagem com o sistema, e um Banco de Dados que abrange os conteúdos teóricos, atividades propostas, avaliações e assim por diante. 
-
-O módulo Modelo Mental constitui-se por três sub-módulos: Seletor, Técnicas DME e Regras Decisórias. Por sua vez o módulo de Consciência Situacional contêm os sub-módulos: Filtro, Sentenças, Mineração e Decisão. Será descrito a seguir especificadamente a ação dos sub-módulos em Modelo Mental e Consciência Situacional influenciando o fluxo de funcionamento do modelo ante a transformação do Ambiente Educacional.
+	O Modelo Computacional representa aspectos lógicos, discretos e matemáticos afim de serem interpretados por um computador, esta representação propõe a estruturação dos métodos e dados adequando-se a arquitetura do processamento em máquina, incumbe-se assim a vinculação dos objetos anteriormente modelados, instituindo uma sequência organizacional entre eles.
+	
+	O modelo a seguir, ilustrado pela figura \ref{modeloSAemAVAcomp} constitui-se de três blocos principais, sendo, Ambiente Educacional, Modelo Mental e Consciência Situacional, derivando-se em 7 módulos de funcionamento do sistema. O Ambiente Educacional como descrito anteriormente neste trabalho, abriga o universo educacional, contendo docente e discente como agentes/usuários que interagem com o sistema, e um Banco de Dados que abrange os conteúdos teóricos, atividades propostas, avaliações e assim por diante. 
+	
+	O módulo Modelo Mental constitui-se por três sub-módulos: Seletor, Técnicas MDE e Regras Decisórias. Por sua vez o módulo de Consciência Situacional contêm os sub-módulos: Filtro, Sentenças, Mineração e Decisão. Será descrito a seguir especificadamente a ação dos sub-módulos em Modelo Mental e Consciência Situacional influenciando o fluxo de funcionamento do modelo ante a transformação do Ambiente Educacional.
 
 \begin{figure}[H]	
 	\centering
@@ -17,28 +15,27 @@ O módulo Modelo Mental constitui-se por três sub-módulos: Seletor, Técnicas DME 
 
 \section{Seletor}
 
-O módulo Seletor atua recebendo os parâmetros de execução do sistema, adequando-os ao funcionamento do modelo a partir das necessidades advindas do Professor. As escolhas dos objetivos aqui definidos originaram-se a partir das aplicações e motivações dos mesmos pelos autores neste trabalho citados, compreendendo-se: 
+O módulo Seletor atua recebendo os parâmetros de execução do sistema, adequando-os ao funcionamento do modelo a partir das necessidades advindas do Professor. As escolhas dos objetivos aqui definidos originaram-se a partir das aplicações e motivações dos mesmos pelos autores neste trabalho citados, compreendendo-se: \emph{Detecção do Estilo de Aprendizagem Previsão do Desempenho Acadêmico do Estudante }.
 
-\begin{enumerate}
-	\item Detecção do Estilo de Aprendizagem	
-	\item Previsão do Desempenho Acadêmico do Estudante	
-\end{enumerate} 
-
-O professor tem a liberdade de escolha do tipo de execução do sistema conforme a necessidade encontrada em sala de aula, de forma que o sistema providencie as condições necessárias para auxílio do docente no ambiente. O módulo a partir do recebimento dos parâmetros define qual o melhor tipo de comportamento do sistema para o tratamento da entrada dos dados, atua selecionando quais os melhores métodos de DME que devem ser utilizados sobre o conjunto de dados, permitindo a Compreensão dos mesmos, e extraindo regras de decisão que ajudarão o sistema na etapa de Projeção de situações conforme o resultado extraído da etapa pós-mineração. O processo de seleção de técnicas e regras pode ser definido computacionalmente por vários métodos, segue exemplo de estruturação por Árvores de Decisão, definindo métodos em EDM para serem aplicados a etapa de Compreensão \ref{arvoreDecisao}. 
+	O professor tem a liberdade de escolha do tipo de execução do sistema conforme a necessidade encontrada em sala de aula, de forma que o sistema providencie as condições necessárias para auxílio do docente no ambiente. 
+	
+	O módulo a partir do recebimento dos parâmetros define qual o melhor tipo de comportamento do sistema para o tratamento da entrada dos dados, atua selecionando quais os melhores métodos de MDE que devem ser utilizados sobre o conjunto de dados, permitindo a Compreensão dos mesmos, e extraindo regras de decisão que ajudarão o sistema na etapa de Projeção de situações conforme o resultado extraído da etapa pós-mineração. 
+	
+	O processo de seleção de técnicas e regras pode ser definido computacionalmente por vários métodos, segue exemplo de estruturação por Árvores de Decisão, definindo métodos em MDE para serem aplicados a etapa de Compreensão \ref{arvoreDecisao}. 
 
 \begin{figure}[H]	
 	\centering
-	\includegraphics[scale=0.52]{figuras/ArvoreDecisao}
-	\caption{Árvore de Decisão para seleção de metódo EDM. Fonte: elaborado pelo autor }
+	\includegraphics[scale=0.55]{figuras/ArvoreDecisao}
+	\caption{Árvore de Decisão para seleção de metódo MDE. Fonte: elaborado pelo autor }
 	\label{arvoreDecisao}	
 \end{figure}
 
 A seleção e delimitação do conjunto de regras pode ser feito por várias técnicas,cita-se o modelo de \citeonline{Garcia_et_al_2011} para validação, seleção e criação de regras designados a educação. O repositório de regras é alimentado pelos docentes a partir de ações decisórias costumeiras, procedimentos e protocolos seguidos em sala de aula, rotineiramente avaliando, editando e introduzindo novas regras.
 
 
-\section{Técnicas DME}
+\section{Técnicas MDE}
 
-Este módulo receberá como entrada todas as técnicas e procedimentos necessárias para a mineração dos dados, compreende a implementação dos algoritmos que serão utilizados em Compreensão. O módulo prevê mais de um tipo algoritmo presente, afim de fornecer diferentes estruturas nas saídas dos dados possibilitando a determinação de diferentes regras decisórias. 
+Este módulo receberá como entrada todas as técnicas e procedimentos necessários para a mineração dos dados, compreende a implementação dos algoritmos que serão utilizados em Compreensão. O módulo prevê mais de um tipo de algoritmo presente, afim de fornecer diferentes estruturas nas saídas dos dados possibilitando a determinação de diferentes regras decisórias. 
 
 \section{Regras Decisórias}
 A regras decisórias são um conjunto de associações e inferências aplicadas após a computação e processamento dos dados minerados, este conjunto permite a orientação do sistema quanto aos possíveis estados futuros diante dos resultados obtidos por aquelas variáveis (figura \ref{arvoreDecisao}).
@@ -55,8 +52,8 @@ A regras decisórias são um conjunto de associações e inferências aplicadas após 
 
 O objetivo de Regras de Associação é procurar por relacionamentos entre os atributos nas bases de dados, levando em conta as regras que antecedem e sucedem o estado. Um exemplo de regra de associação em Ambientes Educacionais seria: SE "aluno acessa muitos dados gráficos" ENTÃO "preferência por conteúdo visual".
 
-Regras de Classificação desenvolvem relações para criarem um sistema de classificação, visam encontrar objetos que possam ser considerados pertencentes a determinado conjunto características específicas.
-A finalidade de Regras de Predição é antecipar algum estado futuro advindo dos valores das suas variáveis avaliadas, permitindo identificar características deem pistas para uma específica saída.
+Regras de Classificação desenvolvem relações para criarem um sistema de classificação, visam encontrar objetos que possam ser considerados pertencentes a determinado conjunto de características específicas.
+A finalidade de Regras de Predição é antecipar algum estado futuro obtido dos valores das suas variáveis avaliadas, permitindo identificar características que deem pistas para uma específica saída.
 
 A regras decisórias executarão o papel de esquemas e roteiros juntamente com o módulo Seletor, determinando situações prototípicas para as relações visualizadas no estado.
 
@@ -72,7 +69,7 @@ A execução deste módulo destina-se a criar as sentenças que serão executadas con
 
 \section{Mineração}
 
-A aplicação das técnicas de mineração ocorre, realizando a compreensão dos dados fornecidos pelo ambiente educacional. Este módulo recebe as entradas do módulo de Sentenças, e do módulo Técnicas DME, este último fornece quais procedimentos devem ser aplicados nas informações recebidas pelas sentenças. Ao final do processo deve ser possível perceber padrões, características e relações sobre o conjunto de dados.
+A aplicação das técnicas de mineração ocorre, realizando a compreensão dos dados fornecidos pelo ambiente educacional. Este módulo recebe as entradas do módulo de Sentenças, e do módulo Técnicas MDE, este último fornece quais procedimentos devem ser aplicados nas informações recebidas pelas sentenças. Ao final do processo deve ser possível perceber padrões, características e relações sobre o conjunto de dados.
 
 \section{Decisão} 
 

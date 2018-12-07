@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.10.16)  5 DEC 2018 21:09
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.10.16)  6 DEC 2018 22:14
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -624,21 +624,9 @@ Package xypdf Info: Line width: 0.47987pt on input line 89.
 
 
 ] (./modelo-de-tcc.lof
-Overfull \hbox (6.59747pt too wide) in paragraph at lines 4--4
- [][] []\OT1/ptm/m/n/12 Modelo de Consci[]encia de Situa[][]ao em to-mada de de
--cis[]ao din[]amica. 
- []
-
-
 Overfull \hbox (6.59747pt too wide) in paragraph at lines 5--5
  [][] []\OT1/ptm/m/n/12 Modelo de Consci[]encia de Situa[][]ao em to-mada de de
 -cis[]ao din[]amica. 
- []
-
-
-Overfull \hbox (6.26172pt too wide) in paragraph at lines 6--6
- [][] []\OT1/ptm/m/n/12 Principais []areas re-la-ci-o-na-das com a EDM. Fonte: 
-(RO-MERO; VEN- 
  []
 
 
@@ -696,12 +684,6 @@ c[]aveis em Minera[][]ao
  (./capitulos/introducao.tex
 Cap\'{\i }tulo 1.
 
-Overfull \hbox (9.77371pt too wide) in paragraph at lines 10--11
-[]\OT1/ptm/m/n/12 O en-ten-di-mento de as-pec-tos em um am-bi-ente []e cha-mada
- de Consci[]encia Situacional-
- []
-
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [1
@@ -715,23 +697,21 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  (./capitulos/fundamentos-conceituais.tex
 Cap\'{\i }tulo 2.
 
-Overfull \hbox (2.98549pt too wide) in paragraph at lines 23--24
-\OT1/ptm/m/n/12 posta por Ends-ley (1995) sendo se-pa-ra-dos em 3 n[]^^Pveis: p
-ercep[][]ao, com-pre-ens[]ao e proje[][]ao
+Overfull \hbox (4.9176pt too wide) in paragraph at lines 21--22
+\OT1/ptm/m/n/12 posta por Ends-ley (1995) sendo se-pa-ra-dos em 3 n[]^^Pveis: \
+OT1/ptm/m/it/12 percep[][]ao, com-pre-ens[]ao e proje[][]ao
  []
 
 <figuras/Fluxo-SA.png, id=72, 788.9475pt x 544.0325pt>
 File: figuras/Fluxo-SA.png Graphic file (type png)
 <use figuras/Fluxo-SA.png>
-Package pdftex.def Info: figuras/Fluxo-SA.png  used on input line 27.
-(pdftex.def)             Requested size: 473.37215pt x 326.42201pt.
+Package pdftex.def Info: figuras/Fluxo-SA.png  used on input line 25.
+(pdftex.def)             Requested size: 433.92245pt x 299.2188pt.
 
-Overfull \hbox (46.58081pt too wide) in paragraph at lines 27--28
+Overfull \hbox (7.13112pt too wide) in paragraph at lines 25--26
  [][] 
  []
 
-LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 32.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -740,15 +720,24 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 ]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <12> not available
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 30.
+
+Underfull \vbox (badness 2042) has occurred while \output is active []
 
  [4 <./figuras/Fluxo-SA.png>]
-Overfull \hbox (5.03586pt too wide) in paragraph at lines 55--56
+Overfull \hbox (5.03586pt too wide) in paragraph at lines 57--58
 \OT1/ptm/m/n/12 para n[]ao es-quec[]e-las. A informa[][]ao con-ci-li-ada com co
 -nhe-ci-mento pr[]evio em uma mem[]oria
  []
 
 [5]
+Overfull \hbox (2.6119pt too wide) in paragraph at lines 65--66
+[]\OT1/ptm/m/n/12 Modelos Men-tais fo-ram de-fi-ni-dos por Rouse, W. B., and Mo
+r-ris (1985 apud ENDS-
+ []
+
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [6]
@@ -756,268 +745,294 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 File: figuras/Esquema-modelos-mentais.png Graphic file (type png)
 <use figuras/Esquema-modelos-mentais.png>
 Package pdftex.def Info: figuras/Esquema-modelos-mentais.png  used on input lin
-e 84.
-(pdftex.def)             Requested size: 419.16924pt x 336.66034pt.
+e 89.
+(pdftex.def)             Requested size: 349.30414pt x 280.54744pt.
 
-[7 <./figuras/Esquema-modelos-mentais.png>]
-<figuras/Areas-DM.png, id=91, 531.9875pt x 353.32pt>
-File: figuras/Areas-DM.png Graphic file (type png)
-<use figuras/Areas-DM.png>
-Package pdftex.def Info: figuras/Areas-DM.png  used on input line 109.
-(pdftex.def)             Requested size: 319.19496pt x 211.99364pt.
- [8 <./figuras/Areas-DM.png>]
-LaTeX Font Info:    Try loading font information for OMS+ptm on input line 122.
+[7] [8 <./figuras/Esquema-modelos-mentais.png>]
+<figuras/Areas-DM-traducao.png, id=94, 692.5875pt x 467.7475pt>
+File: figuras/Areas-DM-traducao.png Graphic file (type png)
+<use figuras/Areas-DM-traducao.png>
+Package pdftex.def Info: figuras/Areas-DM-traducao.png  used on input line 114.
 
+(pdftex.def)             Requested size: 450.17653pt x 304.03226pt.
+
+Overfull \hbox (23.3852pt too wide) in paragraph at lines 114--115
+ [][] 
+ []
+
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 127.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omsptm.fd
 File: omsptm.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 122.
-
-Overfull \hbox (1.73695pt too wide) in paragraph at lines 147--148
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 127.
+ [9 <./figuras/Areas-DM-traducao.png>]
+Overfull \hbox (1.73695pt too wide) in paragraph at lines 154--155
 \OT1/ptm/m/n/12 por de-sen-vol-ve-do-res de soft-ware, pro-fes-so-res, pes-qui-
 sa-do-res edu-ca-ci-o-nais, em informa[][]ao
  []
 
-[9]
-<figuras/Etapas-EDM.png, id=99, 952.55875pt x 232.87pt>
+<figuras/Etapas-EDM.png, id=101, 952.55875pt x 232.87pt>
 File: figuras/Etapas-EDM.png Graphic file (type png)
 <use figuras/Etapas-EDM.png>
-Package pdftex.def Info: figuras/Etapas-EDM.png  used on input line 151.
+Package pdftex.def Info: figuras/Etapas-EDM.png  used on input line 158.
 (pdftex.def)             Requested size: 428.64748pt x 104.79051pt.
 
-Overfull \hbox (1.85614pt too wide) in paragraph at lines 151--152
+Overfull \hbox (1.85614pt too wide) in paragraph at lines 158--159
  [][] 
  []
 
-[10 <./figuras/Etapas-EDM.png>] [11]) [12]
+
+Underfull \vbox (badness 6461) has occurred while \output is active []
+
+ [10]
+[11 <./figuras/Etapas-EDM.png>] [12]) [13]
 \openout2 = `capitulos/revisao-de-literatura.aux'.
 
 
-(./capitulos/revisao-de-literatura.tex
-Cap\'{\i }tulo 3.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [13
+(./capitulos/revisao-de-literatura.tex [14
 
 
 
 ]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Cap\'{\i }tulo 3.
 
- [14]
+LaTeX Warning: Citation `Dorca201' on page 15 undefined on input line 12.
+
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [15]
-<figuras/SA_Framework_Salerno.png, id=119, 420.57124pt x 616.3025pt>
-File: figuras/SA_Framework_Salerno.png Graphic file (type png)
-<use figuras/SA_Framework_Salerno.png>
-Package pdftex.def Info: figuras/SA_Framework_Salerno.png  used on input line 3
-3.
-(pdftex.def)             Requested size: 248.13489pt x 363.61533pt.
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [16]
-Underfull \hbox (badness 10000) in paragraph at lines 51--51
-[]|\OT1/ptm/m/n/12 Salazar et al.
+Overfull \hbox (5.19069pt too wide) in paragraph at lines 38--39
+[]\OT1/ptm/m/n/12 Yin et al. (2012) mo-de-la-ram o uso da Consci[]encia Si-tu-a
+-ci-o-nal para ava-liar Situa[][]oes
  []
 
 
-Overfull \hbox (1.06938pt too wide) in paragraph at lines 52--52
-[]|[]| 
- []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
+ [17]
+<figuras/SA_Framework_Salerno_Traduzido.png, id=127, 597.73312pt x 845.40843pt>
 
-Underfull \hbox (badness 10000) in paragraph at lines 53--53
-[]|\OT1/ptm/m/n/12 Ribeiro et al.
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 56--56
-[]|\OT1/ptm/m/n/12 Categoriza[][]ao dos
- []
-
-
-Overfull \hbox (2.61693pt too wide) in paragraph at lines 59--59
-[]|[]| 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 60--60
-[]|\OT1/ptm/m/n/12 Garc[]^^Pa et al.
- []
-
-
-Overfull \hbox (35.77357pt too wide) in paragraph at lines 47--62
-[][] 
- []
-
-[17 <./figuras/SA_Framework_Salerno.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 76--76
-[]|\OT1/ptm/m/n/12 Mitsch et al.
- []
-
-
-Overfull \hbox (2.38214pt too wide) in paragraph at lines 78--78
-[]|[]| 
- []
-
-
-Overfull \hbox (2.38289pt too wide) in paragraph at lines 80--80
-[]|[]| 
- []
-
-
-Underfull \hbox (badness 3701) in paragraph at lines 81--81
-[]|\OT1/ptm/m/n/12 Matthews et al.
- []
-
-
-Overfull \hbox (35.77357pt too wide) in paragraph at lines 71--83
-[][] 
- []
-
+File: figuras/SA_Framework_Salerno_Traduzido.png Graphic file (type png)
+<use figuras/SA_Framework_Salerno_Traduzido.png>
+Package pdftex.def Info: figuras/SA_Framework_Salerno_Traduzido.png  used on in
+put line 56.
+(pdftex.def)             Requested size: 358.64264pt x 507.24896pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [18]
-Overfull \vbox (14.35402pt too high) has occurred while \output is active []
-
-
-[19]
-Underfull \hbox (badness 10000) in paragraph at lines 95--95
-[]|\OT1/ptm/m/n/12 Salerno, Hin-
+[19 <./figuras/SA_Framework_Salerno_Traduzido.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 74--74
+[]|\OT1/ptm/m/n/12 Salazar et al.
  []
 
 
-Overfull \hbox (35.77357pt too wide) in paragraph at lines 91--97
+Overfull \hbox (1.06938pt too wide) in paragraph at lines 75--75
+[]|[]| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 76--76
+[]|\OT1/ptm/m/n/12 Ribeiro et al.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--79
+[]|\OT1/ptm/m/n/12 Categoriza[][]ao dos
+ []
+
+
+Overfull \hbox (2.61693pt too wide) in paragraph at lines 82--82
+[]|[]| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 83--83
+[]|\OT1/ptm/m/n/12 Garc[]^^Pa et al.
+ []
+
+
+Overfull \hbox (35.77357pt too wide) in paragraph at lines 70--85
 [][] 
  []
 
 
-Overfull \hbox (15.47427pt too wide) in paragraph at lines 102--103
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [20]
+Overfull \vbox (39.85393pt too high) has occurred while \output is active []
+
+
+[21]
+Underfull \hbox (badness 10000) in paragraph at lines 99--99
+[]|\OT1/ptm/m/n/12 Mitsch et al.
+ []
+
+
+Overfull \hbox (2.38214pt too wide) in paragraph at lines 101--101
+[]|[]| 
+ []
+
+
+Overfull \hbox (2.38289pt too wide) in paragraph at lines 103--103
+[]|[]| 
+ []
+
+
+Underfull \hbox (badness 3701) in paragraph at lines 104--104
+[]|\OT1/ptm/m/n/12 Matthews et al.
+ []
+
+
+Overfull \hbox (35.77357pt too wide) in paragraph at lines 94--106
+[][] 
+ []
+
+
+Overfull \vbox (15.554pt too high) has occurred while \output is active []
+
+
+[22]
+Underfull \hbox (badness 10000) in paragraph at lines 118--118
+[]|\OT1/ptm/m/n/12 Salerno, Hin-
+ []
+
+
+Overfull \hbox (35.77357pt too wide) in paragraph at lines 114--120
+[][] 
+ []
+
+
+Overfull \hbox (15.47427pt too wide) in paragraph at lines 125--126
 []\OT1/ptm/m/n/12 Este cap[]^^Ptulo apre-sen-tou m[]etodos e pes-qui-sas es-tu-
 da-das para constru[][]ao de aplica[][]oes
  []
 
 
-Overfull \hbox (7.96326pt too wide) in paragraph at lines 106--107
+Overfull \hbox (7.96326pt too wide) in paragraph at lines 129--130
 []\OT1/ptm/m/n/12 Os cap[]^^Ptulos 4 e 5 apre-sen-tam o Mo-delo de Apoio ao En-
 sino ori-en-tado a Consci[]encia
  []
 
-) [20]
+) [23]
 \openout2 = `capitulos/metodologia.aux'.
 
- (./capitulos/metodologia.tex
+ (./capitulos/metodologia.tex [24
+
+
+
+]
 Cap\'{\i }tulo 4.
-<figuras/teste_modelov02.png, id=138, 766.865pt x 470.75874pt>
+<figuras/teste_modelov02.png, id=152, 888.31876pt x 538.01pt>
 File: figuras/teste_modelov02.png Graphic file (type png)
 <use figuras/teste_modelov02.png>
 Package pdftex.def Info: figuras/teste_modelov02.png  used on input line 11.
-(pdftex.def)             Requested size: 460.12256pt x 282.45743pt.
+(pdftex.def)             Requested size: 506.34695pt x 306.66888pt.
 
-Overfull \hbox (33.33122pt too wide) in paragraph at lines 11--12
+Overfull \hbox (79.55562pt too wide) in paragraph at lines 11--12
  [][] 
  []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [21
-
-
-
-]
+ [25]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [22 <./figuras/teste_modelov02.png>]
+ [26 <./figuras/teste_modelov02.png>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [23]
-<figuras/Script-modelo-mental.png, id=149, 386.44376pt x 347.2975pt>
+ [27]
+<figuras/Script-modelo-mental.png, id=163, 386.44376pt x 347.2975pt>
 File: figuras/Script-modelo-mental.png Graphic file (type png)
 <use figuras/Script-modelo-mental.png>
 Package pdftex.def Info: figuras/Script-modelo-mental.png  used on input line 4
-2.
+6.
 (pdftex.def)             Requested size: 231.86804pt x 208.3801pt.
-<figuras/Script-modelo-mental2.png, id=150, 348.30125pt x 323.2075pt>
+<figuras/Script-modelo-mental2.png, id=164, 348.30125pt x 323.2075pt>
 File: figuras/Script-modelo-mental2.png Graphic file (type png)
 <use figuras/Script-modelo-mental2.png>
 Package pdftex.def Info: figuras/Script-modelo-mental2.png  used on input line 
-51.
+55.
 (pdftex.def)             Requested size: 208.98236pt x 193.926pt.
 
-Overfull \hbox (4.89053pt too wide) in paragraph at lines 58--59
+Overfull \hbox (4.89053pt too wide) in paragraph at lines 62--63
 \OT1/ptm/m/n/12 dos. O re-sul-tado de-cor-rente da intera[][]ao Aluno X Pro-fes
 -sor X Conte[]udos Te[]oricos/Pr[]aticos
  []
 
-[24 <./figuras/Script-modelo-mental.png>]
-Overfull \hbox (0.44104pt too wide) in paragraph at lines 64--65
+[28 <./figuras/Script-modelo-mental.png>]
+Overfull \hbox (0.44104pt too wide) in paragraph at lines 70--71
 \OT1/ptm/m/n/12 e ou identifica[][]ao da situa[][]ao. In[]umeras abor-da-gens p
-o-dem ser en-car-re-ga-das desta fun[][]ao.
+o-dem ser en-car-re-ga-das desta fun[][]ao. 
  []
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [25 <./figuras/Script-modelo-mental2.png>]
-Overfull \hbox (20.34607pt too wide) in paragraph at lines 72--73
-[]\OT1/ptm/m/n/12 Quando projeta-se situa[][]oes fu-tu-ras an-seia en-saiar pos
-s[]^^Pveis ca-mi-nhos e con-sequ[]encias
+[29 <./figuras/Script-modelo-mental2.png>]
+Overfull \hbox (2.52603pt too wide) in paragraph at lines 82--83
+[]\OT1/ptm/m/n/12 A proje[][]ao di-fe-ren-te-mente da Com-pre-ens[]ao n[]ao tra
+-ba-lha di-re-ta-mente com m[]etodos
  []
 
-) [26]
+) [30]
 \openout2 = `capitulos/resultados.aux'.
 
  (./capitulos/resultados.tex
 Cap\'{\i }tulo 5.
-<figuras/modelo_persp_comp.png, id=163, 986.68625pt x 491.8375pt>
+<figuras/modelo_persp_comp.png, id=177, 1027.84pt x 492.84125pt>
 File: figuras/modelo_persp_comp.png Graphic file (type png)
 <use figuras/modelo_persp_comp.png>
-Package pdftex.def Info: figuras/modelo_persp_comp.png  used on input line 13.
-(pdftex.def)             Requested size: 394.66751pt x 196.7315pt.
+Package pdftex.def Info: figuras/modelo_persp_comp.png  used on input line 11.
+(pdftex.def)             Requested size: 411.12872pt x 197.133pt.
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [27
-
-
-
-]
-Overfull \hbox (9.19875pt too wide) in paragraph at lines 20--21
+Overfull \hbox (9.19875pt too wide) in paragraph at lines 18--19
 []\OT1/ptm/m/n/12 O m[]odulo Se-le-tor atua re-ce-bendo os par[]ametros de exec
 u[][]ao do sis-tema, adequando-
  []
 
-<figuras/ArvoreDecisao.png, id=167, 573.14125pt x 1147.28625pt>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [31
+
+
+
+ <./figuras/modelo_persp_comp.png>]
+<figuras/ArvoreDecisao.png, id=183, 573.14125pt x 1147.28625pt>
 File: figuras/ArvoreDecisao.png Graphic file (type png)
 <use figuras/ArvoreDecisao.png>
-Package pdftex.def Info: figuras/ArvoreDecisao.png  used on input line 31.
-(pdftex.def)             Requested size: 298.03516pt x 596.59229pt.
-[28 <./figuras/modelo_persp_comp.png>]
-Overfull \hbox (5.1178pt too wide) in paragraph at lines 36--37
+Package pdftex.def Info: figuras/ArvoreDecisao.png  used on input line 28.
+(pdftex.def)             Requested size: 315.22865pt x 631.00938pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [32]
+Overfull \hbox (5.1178pt too wide) in paragraph at lines 33--34
 []\OT1/ptm/m/n/12 A sele[][]ao e delimita[][]ao do con-junto de re-gras pode se
 r feito por v[]arias t[]ecnicas,cita-
  []
 
-[29 <./figuras/ArvoreDecisao.png>]
-<figuras/regraDecisao.png, id=176, 938.50626pt x 246.9225pt>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [33 <./figuras/ArvoreDecisao.png>]
+<figuras/regraDecisao.png, id=191, 938.50626pt x 246.9225pt>
 File: figuras/regraDecisao.png Graphic file (type png)
 <use figuras/regraDecisao.png>
-Package pdftex.def Info: figuras/regraDecisao.png  used on input line 48.
+Package pdftex.def Info: figuras/regraDecisao.png  used on input line 45.
 (pdftex.def)             Requested size: 469.25198pt x 123.46094pt.
 
-Overfull \hbox (42.46065pt too wide) in paragraph at lines 48--49
+Overfull \hbox (42.46065pt too wide) in paragraph at lines 45--46
  [][] 
  []
 
-[30 <./figuras/regraDecisao.png>]
-Overfull \hbox (24.71388pt too wide) in paragraph at lines 58--60
+[34 <./figuras/regraDecisao.png>]
+Overfull \hbox (24.71388pt too wide) in paragraph at lines 55--57
 []\OT1/ptm/m/n/12 Regras de Classifica[][]ao de-sen-vol-vem rela[][]oes para cr
 i-a-rem um sis-tema de classifica[][]ao,
  []
@@ -1025,8 +1040,8 @@ i-a-rem um sis-tema de classifica[][]ao,
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [31])
-[32]
+ [35])
+[36]
 \openout2 = `capitulos/conclusao.aux'.
 
  (./capitulos/conclusao.tex
@@ -1034,15 +1049,15 @@ Cap\'{\i }tulo 6.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [33
+ [37
 
 
 
 ])
-[34] (./modelo-de-tcc.bbl [35
+[38] (./modelo-de-tcc.bbl [39
 
 
-] [36] [37]) [38] [39
+] [40] [41]) [42] [43
 
 ] (./modelo-de-tcc.aux
 (./pre-textual/dedicatoria.aux) (./pre-textual/agradecimento.aux)
@@ -1052,14 +1067,17 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 (./capitulos/revisao-de-literatura.aux) (./capitulos/metodologia.aux)
 (./capitulos/resultados.aux) (./capitulos/conclusao.aux))
 
+LaTeX Warning: There were undefined references.
+
+
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 7335 strings out of 492982
- 98638 string characters out of 6134895
- 230710 words of memory out of 5000000
- 10587 multiletter control sequences out of 15000+600000
+ 7328 strings out of 492982
+ 98621 string characters out of 6134895
+ 222710 words of memory out of 5000000
+ 10580 multiletter control sequences out of 15000+600000
  24650 words of font info for 66 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  41i,20n,28p,3224b,387s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1068,10 +1086,10 @@ e/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/ty
 pe1/urw/times/utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/
 utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on modelo-de-tcc.pdf (58 pages, 730974 bytes).
+Output written on modelo-de-tcc.pdf (62 pages, 850703 bytes).
 PDF statistics:
- 232 PDF objects out of 1000 (max. 8388607)
- 147 compressed objects within 2 object streams
+ 246 PDF objects out of 1000 (max. 8388607)
+ 156 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  56 words of extra memory for PDF output out of 10000 (max. 10000000)
 
