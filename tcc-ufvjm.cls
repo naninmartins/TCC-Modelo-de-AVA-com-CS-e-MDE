@@ -393,14 +393,14 @@ qualquer meio convencional ou eletr\^onico, desde que citada a fonte.
   %Criar a folha de rosto.
   %A folha de rosto será contada como a primeira página, 
   %mas não será exibida sua numeração.
-  \@folhaderosto
+  \@folhaderosto 
 
   %Exibir numeração em romano nas páginas. A Ficha Catalográfica deve ser contada como ii.
-  \pagenumbering{roman}
-
+  \pagenumbering{arabic}
+	\pagestyle{empty}
   %Exibir ficha catalográfica, caso \CDU tenha sido usado.
   %Caso contrário, deixar uma página em branco depois da folha de rosto. Essa será a página ii.
-  \if@exibirfichacat
+  \if@exibirfichacat 
      \@fichacatalografica
   \else
      \cleardoublepage
@@ -491,7 +491,7 @@ qualquer meio convencional ou eletr\^onico, desde que citada a fonte.
 \parskip5.8pt
 \headsep.4cm
 \marginparwidth 40pt \marginparsep 10pt
-\newcommand*\chaptermark[1]{}
+\newcommand*\chaptermark[1]{} 
 \setcounter{secnumdepth}{3}
 \newcounter {part}
 \newcounter {chapter}
@@ -933,7 +933,7 @@ qualquer meio convencional ou eletr\^onico, desde que citada a fonte.
     \cleardoublepage
 
     %Depois do Sumário, exibir em algarismos arábicos a numeração das páginas.
-    \pagenumbering{arabic}
+    %\pagenumbering{arabic}
     }
 
 \newcommand*\l@part[2]{
@@ -1095,7 +1095,7 @@ qualquer meio convencional ou eletr\^onico, desde que citada a fonte.
 \setlength\columnsep{10\p@}
 \setlength\columnseprule{0\p@}
 \pagestyle{plain}
-\pagenumbering{arabic}
+%\pagenumbering{arabic}
 \if@twoside
 \else
   \raggedbottom
